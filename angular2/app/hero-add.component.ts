@@ -1,9 +1,10 @@
 import { Component, OnInit }      from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params,Router } from '@angular/router';
 import { Location }               from '@angular/common';
-
-import { Hero }         from './hero';
-import { HeroService }  from './hero.service';
+import { Http, Headers }          from '@angular/http';
+import { Hero }                   from './hero';
+import { HeroService }            from './hero.service';
+import { contentHeaders }         from './headers';
 
 @Component({
   moduleId: module.id,
@@ -17,7 +18,9 @@ export class HeroAddComponent implements OnInit {
   constructor(
     private heroService: HeroService,
     private route: ActivatedRoute,
-    private location: Location
+    private location: Location,
+    public http:Http,
+    public router: Router  
   ) {}
   model =new Hero();
 
@@ -25,11 +28,11 @@ export class HeroAddComponent implements OnInit {
   active = true;    
 
 
-  onSubmit() {
-   console.log("Trigger here ",this ,this.model );
+  onSubmit(event) {
+   console.log("Trigger here ",this ,this.model ,event );
    // TODO - call a service here and save details to db 
-
-
+    event.preventDefault();
+    this.saveProduct(this.model);
 
 
   }            
@@ -45,6 +48,22 @@ export class HeroAddComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
+
+ saveProduct(prductDetail) {
+    let body = JSON.stringify(prductDetail);
+    this.http.post('http://localhost:1337/product/', body, { headers: contentHeaders })
+      .subscribe(
+        response => {
+          localStorage.setItem('id_token', response.json().id_token);
+          this.router.navigate(['home']);
+        },
+        error => {
+          alert(error.text());
+          console.log(error.text());
+        }
+      );
+  }
+
 }
 
 

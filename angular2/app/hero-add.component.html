@@ -2,7 +2,7 @@
 <div >
   <h2>Add new product</h2>
 
-<form *ngIf="active" (ngSubmit)="onSubmit()" #heroForm="ngForm">
+<form *ngIf="active" (submit)="onSubmit($event)" #heroForm="ngForm">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" class="form-control" id="name"
