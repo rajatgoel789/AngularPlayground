@@ -4,10 +4,11 @@ var dashboard_component_1 = require('./dashboard.component');
 var heroes_component_1 = require('./heroes.component');
 var hero_detail_component_1 = require('./hero-detail.component');
 var hero_add_component_1 = require('./hero-add.component');
+var login_1 = require('./login');
 var appRoutes = [
     {
         path: '',
-        redirectTo: '/dashboard',
+        redirectTo: '/login',
         pathMatch: 'full'
     },
     {
@@ -25,6 +26,10 @@ var appRoutes = [
     {
         path: 'add',
         component: hero_add_component_1.HeroAddComponent
+    },
+    {
+        path: 'login',
+        component: login_1.Login
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);

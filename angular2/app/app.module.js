@@ -13,12 +13,14 @@ var platform_browser_1 = require('@angular/platform-browser');
 var forms_1 = require('@angular/forms');
 var http_1 = require('@angular/http');
 var app_component_1 = require('./app.component');
+var angular2_jwt_1 = require('angular2-jwt');
 var dashboard_component_1 = require('./dashboard.component');
 var hero_detail_component_1 = require('./hero-detail.component');
 var hero_add_component_1 = require('./hero-add.component');
 var heroes_component_1 = require('./heroes.component');
 var hero_service_1 = require('./hero.service');
 var app_routing_1 = require('./app.routing');
+var login_1 = require('./login');
 require('./rxjso');
 var AppModule = (function () {
     function AppModule() {
@@ -37,11 +39,12 @@ var AppModule = (function () {
                 dashboard_component_1.DashboardComponent,
                 hero_detail_component_1.HeroDetailComponent,
                 hero_add_component_1.HeroAddComponent,
-                heroes_component_1.HeroesComponent
+                heroes_component_1.HeroesComponent,
+                login_1.Login
             ],
             providers: [
-                hero_service_1.HeroService //, ...AUTH_PROVIDERS
-            ],
+                hero_service_1.HeroService
+            ].concat(angular2_jwt_1.AUTH_PROVIDERS),
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

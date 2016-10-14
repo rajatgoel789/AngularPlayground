@@ -1,15 +1,16 @@
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Http } from '@angular/http';
 import { contentHeaders } from './headers';
 
-const styles   = require('./login.css');
-const template = require('./login.html');
+// const styles   = require('./login.css');
+// const template = require('./login.html');
 
 @Component({
+  moduleId: module.id,
   selector: 'login',
-  template: template,
-  styles: [ styles ]
+  templateUrl: 'login.html',
+  styles: [ 'login.css' ]
 })
 export class Login {
   constructor(public router: Router, public http: Http) {
@@ -31,8 +32,5 @@ export class Login {
       );
   }
 
-  // signup(event) {
-  //   event.preventDefault();
-  //   this.router.navigate(['signup']);
-  // }
+
 }

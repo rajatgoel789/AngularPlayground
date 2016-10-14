@@ -21,6 +21,9 @@
       '@angular/http': 'npm:@angular/http/bundles/http.umd.js', //For http interaction
       '@angular/router': 'npm:@angular/router/bundles/router.umd.js', //Enables Router 
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js', //Enables A2 Forms
+      'angular2-jwt':  'npm:angular2-jwt/angular2-jwt.js',
+      'js-base64':'npm:js-base64/base64.js',
+      'buffer':'@empty',
       // other libraries
       'rxjs':                       'npm:rxjs', //
       //'angular2-in-memory-web-api': 'npm:angular2-in-memory-web-api',

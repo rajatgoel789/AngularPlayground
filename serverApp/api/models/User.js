@@ -7,13 +7,10 @@
 module.exports = {
 
 	attributes: {
-		"name": {
+		"username": {
 			type: 'string'
 		},
-		"size": {
-			type: 'string'
-		},
-		"description": {
+		"password": {
 			type: 'string'
 		}
 	}

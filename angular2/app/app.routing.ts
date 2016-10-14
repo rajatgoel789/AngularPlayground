@@ -5,11 +5,12 @@ import { DashboardComponent }   from './dashboard.component';
 import { HeroesComponent }      from './heroes.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 import { HeroAddComponent }  from './hero-add.component';
+import { Login }  from './login';
 
 const appRoutes: Routes = [
   {
     path: '',
-    redirectTo: '/dashboard',
+    redirectTo: '/login',
     pathMatch: 'full'
   },
   {
@@ -27,7 +28,12 @@ const appRoutes: Routes = [
   {
     path: 'add',
     component: HeroAddComponent
+  },
+  {
+    path: 'login',
+    component: Login
   }
+
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

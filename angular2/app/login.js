@@ -12,8 +12,8 @@ var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var http_1 = require('@angular/http');
 var headers_1 = require('./headers');
-var styles = require('./login.css');
-var template = require('./login.html');
+// const styles   = require('./login.css');
+// const template = require('./login.html');
 var Login = (function () {
     function Login(router, http) {
         this.router = router;
@@ -34,9 +34,10 @@ var Login = (function () {
     };
     Login = __decorate([
         core_1.Component({
+            moduleId: module.id,
             selector: 'login',
-            template: template,
-            styles: [styles]
+            templateUrl: 'login.html',
+            styles: ['login.css']
         }), 
         __metadata('design:paramtypes', [router_1.Router, http_1.Http])
     ], Login);

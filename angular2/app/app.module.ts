@@ -4,13 +4,15 @@ import { FormsModule }    from '@angular/forms';
 import { HttpModule, JsonpModule }  from '@angular/http';
 
 import { AppComponent }         from './app.component';
-// import { AUTH_PROVIDERS }       from 'angular2-jwt';
+import { AUTH_PROVIDERS }       from 'angular2-jwt';
 import { DashboardComponent }   from './dashboard.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 import { HeroAddComponent }     from './hero-add.component';
 import { HeroesComponent }      from './heroes.component';
 import { HeroService }          from './hero.service';
 import { routing }              from './app.routing';
+import { Login }              from './login';
+
 
 import './rxjso'
 
@@ -28,10 +30,11 @@ import './rxjso'
     DashboardComponent,
     HeroDetailComponent,
     HeroAddComponent,
-    HeroesComponent
+    HeroesComponent,
+    Login
   ],
   providers: [
-    HeroService //, ...AUTH_PROVIDERS
+    HeroService , ...AUTH_PROVIDERS
   ],
   bootstrap: [ AppComponent ]
 })
