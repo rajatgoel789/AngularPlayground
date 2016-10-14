@@ -9,9 +9,23 @@ module.exports = {
 
 	index: function(req, res) {
 		// body...		
+		var body = req.body ||{};
+		var username = body.username ; 
+		var password = body.password ;
+		if(!username || !password){
+			return res.status(400).json({error:"Invalid parametes"})
+		}
+		User.find({"username":username , "password": password},{username:1})
+		.exec(function (error, user) {
+			console.log(error , user) ; 	
+			 if(error){ return res.status(400).json({error:error}) }
+			 if(!user.length){
+			 	return res.status(400).json({error:"Invalid Username/Password"})
+			 }
+			 delete  user[0].password;
+			res.json(user[0]);
+		
+		})	
 
-
-		console.log("req.body" , req.body);
-		res.json({"ok":"ok"});
 	}
 };
