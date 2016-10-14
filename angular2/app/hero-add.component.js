@@ -33,23 +33,23 @@ var HeroAddComponent = (function () {
         this.saveProduct(this.model);
     };
     HeroAddComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.route.params.forEach(function (params) {
-            var id = +params['id'];
-            _this.heroService.getHero(id)
-                .then(function (hero) { return _this.hero = hero; });
-        });
+        // this.route.params.forEach((params: Params) => {
+        //   let id = params['id'];
+        //   this.heroService.getHero(id)
+        //     .then(hero => this.hero = hero);
+        // });
     };
     HeroAddComponent.prototype.goBack = function () {
         this.location.back();
     };
-    HeroAddComponent.prototype.saveProduct = function (prductDetail) {
+    HeroAddComponent.prototype.saveProduct = function (productDetail) {
         var _this = this;
-        var body = JSON.stringify(prductDetail);
+        var body = productDetail;
         this.http.post('http://localhost:1337/product/', body, { headers: headers_1.contentHeaders })
             .subscribe(function (response) {
-            localStorage.setItem('id_token', response.json().id_token);
-            _this.router.navigate(['home']);
+            console.log(response);
+            // localStorage.setItem('id_token', response.json().id_token);
+            _this.router.navigate(['heroes']);
         }, function (error) {
             alert(error.text());
             console.log(error.text());

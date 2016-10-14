@@ -1,6 +1,8 @@
 export class Hero {
-  id: number;
+  id: any;
   name: string;
+  description:string;
+  product_size: string ; 
 }
 
 

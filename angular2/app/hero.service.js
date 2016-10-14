@@ -10,10 +10,44 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var mock_heroes_1 = require('./mock-heroes');
 var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
+var http_1 = require('@angular/http');
+var Observable_1 = require('rxjs/Observable');
 var HeroService = (function () {
-    function HeroService() {
+    function HeroService(http, router) {
+        this.http = http;
+        this.router = router;
+        this.heroesUrl = 'http://localhost:1337/product/';
     }
+    HeroService.prototype.getHeroesList = function () {
+        return this.http.get(this.heroesUrl)
+            .map(this.extractData)
+            .catch(this.handleError);
+    };
+    HeroService.prototype.removeHeros = function (id) {
+        return this.http.delete(this.heroesUrl + id)
+            .map(this.extractData)
+            .catch(this.handleError);
+    };
+    HeroService.prototype.updateHeros = function (id, obj) {
+        return this.http.put(this.heroesUrl + id, obj)
+            .map(this.extractData)
+            .catch(this.handleError);
+    };
+    HeroService.prototype.extractData = function (res) {
+        var body = res.json();
+        return body || {};
+    };
+    HeroService.prototype.handleError = function (error) {
+        // In a real world app, we might use a remote logging infrastructure
+        // We'd also dig deeper into the error to get a better message
+        var errMsg = (error.message) ? error.message :
+            error.status ? error.status + " - " + error.statusText : 'Server error';
+        console.error(errMsg); // log to console instead
+        return Observable_1.Observable.throw(errMsg);
+    };
     HeroService.prototype.getHeroes = function () {
+        console.log("HEROES", mock_heroes_1.HEROES);
         return Promise.resolve(mock_heroes_1.HEROES);
     };
     HeroService.prototype.getHeroesSlowly = function () {
@@ -24,12 +58,13 @@ var HeroService = (function () {
             .then(function () { return _this.getHeroes(); });
     };
     HeroService.prototype.getHero = function (id) {
-        return this.getHeroes()
-            .then(function (heroes) { return heroes.find(function (hero) { return hero.id === id; }); });
+        return this.http.get(this.heroesUrl + id)
+            .map(this.extractData)
+            .catch(this.handleError);
     };
     HeroService = __decorate([
         core_1.Injectable(), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [http_1.Http, router_1.Router])
     ], HeroService);
     return HeroService;
 }());

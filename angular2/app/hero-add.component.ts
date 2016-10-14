@@ -38,31 +38,32 @@ export class HeroAddComponent implements OnInit {
   }            
 
   ngOnInit(): void {
-    this.route.params.forEach((params: Params) => {
-      let id = +params['id'];
-      this.heroService.getHero(id)
-        .then(hero => this.hero = hero);
-    });
+    // this.route.params.forEach((params: Params) => {
+    //   let id = params['id'];
+    //   this.heroService.getHero(id)
+    //     .then(hero => this.hero = hero);
+    // });
   }
 
   goBack(): void {
     this.location.back();
   }
 
- saveProduct(prductDetail) {
-    let body = JSON.stringify(prductDetail);
+ saveProduct(productDetail) {
+    let body = productDetail;
     this.http.post('http://localhost:1337/product/', body, { headers: contentHeaders })
       .subscribe(
         response => {
-          localStorage.setItem('id_token', response.json().id_token);
-          this.router.navigate(['home']);
+          console.log(response);
+          // localStorage.setItem('id_token', response.json().id_token);
+          this.router.navigate(['heroes']);
         },
         error => {
           alert(error.text());
           console.log(error.text());
         }
       );
-  }
+    }
 
 }
 

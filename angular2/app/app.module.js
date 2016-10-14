@@ -40,7 +40,7 @@ var AppModule = (function () {
                 heroes_component_1.HeroesComponent
             ],
             providers: [
-                hero_service_1.HeroService
+                hero_service_1.HeroService //, ...AUTH_PROVIDERS
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

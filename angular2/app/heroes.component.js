@@ -20,14 +20,38 @@ var HeroesComponent = (function () {
         var _this = this;
         this.heroService.getHeroes().then(function (heroes) { return _this.heroes = heroes; });
     };
+    HeroesComponent.prototype.getHeroesList = function () {
+        var _this = this;
+        console.log("getHeroesList", this.heroService);
+        this.heroService.getHeroesList()
+            .subscribe(function (heroes) { _this.heroes = heroes; console.log("Heroes ", heroes); }, function (error) { return _this.errorMessage = error; });
+    };
     HeroesComponent.prototype.ngOnInit = function () {
-        this.getHeroes();
+        // this.getHeroes();
+        this.getHeroesList();
     };
     HeroesComponent.prototype.onSelect = function (hero) {
         this.selectedHero = hero;
     };
     HeroesComponent.prototype.gotoDetail = function () {
         this.router.navigate(['/detail', this.selectedHero.id]);
+    };
+    HeroesComponent.prototype.deleteDetail = function () {
+        // console.log("selected hero" , this.selectedHero ) ;
+        var _this = this;
+        this.heroService.removeHeros(this.selectedHero.id)
+            .subscribe(function (heroes) {
+            // this.heroes = heroes ; 
+            var heroeslist = _this.heroes;
+            for (var i = 0; i < heroeslist.length; i++) {
+                if (heroeslist[i].id == _this.selectedHero.id) {
+                    _this.heroes.splice(i, 1);
+                    delete _this.selectedHero;
+                }
+            }
+        }, function (error) {
+            _this.errorMessage = error;
+        });
     };
     HeroesComponent = __decorate([
         core_1.Component({
@@ -41,9 +65,4 @@ var HeroesComponent = (function () {
     return HeroesComponent;
 }());
 exports.HeroesComponent = HeroesComponent;
-/*
-Copyright 2016 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/ 
 //# sourceMappingURL=heroes.component.js.map

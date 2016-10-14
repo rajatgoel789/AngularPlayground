@@ -13,18 +13,29 @@ var router_1 = require('@angular/router');
 var common_1 = require('@angular/common');
 var hero_service_1 = require('./hero.service');
 var HeroDetailComponent = (function () {
-    function HeroDetailComponent(heroService, route, location) {
+    function HeroDetailComponent(heroService, route, router, location) {
         this.heroService = heroService;
         this.route = route;
+        this.router = router;
         this.location = location;
     }
     HeroDetailComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.route.params.forEach(function (params) {
-            var id = +params['id'];
+            var id = params['id'];
             _this.heroService.getHero(id)
-                .then(function (hero) { return _this.hero = hero; });
+                .subscribe(function (hero) { return _this.hero = hero; });
         });
+    };
+    HeroDetailComponent.prototype.update = function () {
+        var _this = this;
+        console.log("Current Hero", this.hero);
+        this.heroService.updateHeros(this.hero.id, this.hero)
+            .subscribe(function (heroes) {
+            // TODO navigate to list page 
+            // this.heroes = heroes ; console.log("Heroes " , heroes );
+            _this.router.navigate(['heroes']);
+        }, function (error) { return _this.errorMessage = error; });
     };
     HeroDetailComponent.prototype.goBack = function () {
         this.location.back();
@@ -36,7 +47,7 @@ var HeroDetailComponent = (function () {
             templateUrl: 'hero-detail.component.html',
             styleUrls: ['hero-detail.component.css']
         }), 
-        __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.ActivatedRoute, common_1.Location])
+        __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.ActivatedRoute, router_1.Router, common_1.Location])
     ], HeroDetailComponent);
     return HeroDetailComponent;
 }());
