@@ -26,10 +26,10 @@ var Login = (function () {
         this.http.post('http://localhost:1337/login', body, { headers: headers_1.contentHeaders })
             .subscribe(function (response) {
             localStorage.setItem('id_token', response.json().id_token);
-            _this.router.navigate(['home']);
+            _this.router.navigate(['dashboard']);
         }, function (error) {
             alert(error.text());
-            console.log(error.text());
+            console.log(error, error.text());
         });
     };
     Login = __decorate([
@@ -37,7 +37,7 @@ var Login = (function () {
             moduleId: module.id,
             selector: 'login',
             templateUrl: 'login.html',
-            styles: ['login.css']
+            styleUrls: ['login.css', 'bootstrap.min.css']
         }), 
         __metadata('design:paramtypes', [router_1.Router, http_1.Http])
     ], Login);

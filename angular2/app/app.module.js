@@ -21,6 +21,8 @@ var heroes_component_1 = require('./heroes.component');
 var hero_service_1 = require('./hero.service');
 var app_routing_1 = require('./app.routing');
 var login_1 = require('./login');
+var auth_guard_1 = require('./auth.guard');
+// import {NgbModule}              from '@ng-bootstrap/ng-bootstrap';
 require('./rxjso');
 var AppModule = (function () {
     function AppModule() {
@@ -32,7 +34,7 @@ var AppModule = (function () {
                 forms_1.FormsModule,
                 http_1.HttpModule,
                 http_1.JsonpModule,
-                app_routing_1.routing
+                app_routing_1.routing,
             ],
             declarations: [
                 app_component_1.AppComponent,
@@ -43,8 +45,8 @@ var AppModule = (function () {
                 login_1.Login
             ],
             providers: [
-                hero_service_1.HeroService
-            ].concat(angular2_jwt_1.AUTH_PROVIDERS),
+                hero_service_1.HeroService, angular2_jwt_1.AUTH_PROVIDERS, auth_guard_1.AuthGuard
+            ],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

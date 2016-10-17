@@ -10,7 +10,7 @@ import { contentHeaders } from './headers';
   moduleId: module.id,
   selector: 'login',
   templateUrl: 'login.html',
-  styles: [ 'login.css' ]
+  styleUrls: [ 'login.css','bootstrap.min.css' ]
 })
 export class Login {
   constructor(public router: Router, public http: Http) {
@@ -23,11 +23,11 @@ export class Login {
       .subscribe(
         response => {
           localStorage.setItem('id_token', response.json().id_token);
-          this.router.navigate(['home']);
+          this.router.navigate(['dashboard']);
         },
         error => {
-          alert(error.text());
-          console.log(error.text());
+          alert(error.text() );
+          console.log(error , error.text());
         }
       );
   }

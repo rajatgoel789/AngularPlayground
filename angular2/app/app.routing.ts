@@ -5,6 +5,7 @@ import { DashboardComponent }   from './dashboard.component';
 import { HeroesComponent }      from './heroes.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 import { HeroAddComponent }  from './hero-add.component';
+import { AuthGuard } from './auth.guard';
 import { Login }  from './login';
 
 const appRoutes: Routes = [
@@ -15,19 +16,23 @@ const appRoutes: Routes = [
   },
   {
     path: 'dashboard',
-    component: DashboardComponent
+    component: DashboardComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'detail/:id',
-    component: HeroDetailComponent
+    component: HeroDetailComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'heroes',
-    component: HeroesComponent
+    component: HeroesComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'add',
-    component: HeroAddComponent
+    component: HeroAddComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'login',

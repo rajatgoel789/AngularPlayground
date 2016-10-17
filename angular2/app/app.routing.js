@@ -4,6 +4,7 @@ var dashboard_component_1 = require('./dashboard.component');
 var heroes_component_1 = require('./heroes.component');
 var hero_detail_component_1 = require('./hero-detail.component');
 var hero_add_component_1 = require('./hero-add.component');
+var auth_guard_1 = require('./auth.guard');
 var login_1 = require('./login');
 var appRoutes = [
     {
@@ -13,19 +14,23 @@ var appRoutes = [
     },
     {
         path: 'dashboard',
-        component: dashboard_component_1.DashboardComponent
+        component: dashboard_component_1.DashboardComponent,
+        canActivate: [auth_guard_1.AuthGuard]
     },
     {
         path: 'detail/:id',
-        component: hero_detail_component_1.HeroDetailComponent
+        component: hero_detail_component_1.HeroDetailComponent,
+        canActivate: [auth_guard_1.AuthGuard]
     },
     {
         path: 'heroes',
-        component: heroes_component_1.HeroesComponent
+        component: heroes_component_1.HeroesComponent,
+        canActivate: [auth_guard_1.AuthGuard]
     },
     {
         path: 'add',
-        component: hero_add_component_1.HeroAddComponent
+        component: hero_add_component_1.HeroAddComponent,
+        canActivate: [auth_guard_1.AuthGuard]
     },
     {
         path: 'login',

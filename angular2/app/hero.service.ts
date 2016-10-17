@@ -5,14 +5,28 @@ import { ActivatedRoute, Params,Router }      from '@angular/router';
 import { Http, Headers,Response }             from '@angular/http';
 import { contentHeaders }                     from './headers';
 import { Observable }                         from 'rxjs/Observable';
+import { AuthHttp,JwtHelper }                           from 'angular2-jwt';
 
+ // constructor(public router: Router, public http: Http,) {
+ //    this.jwt = localStorage.getItem('id_token');
+ //    this.decodedJwt = this.jwt && window.jwt_decode(this.jwt);
+ //  }
 @Injectable()
 export class HeroService {
   private heroesUrl = 'http://localhost:1337/product/'; 
+  jwt: string;
+  decodedJwt: string;
   constructor(
     public http:Http,
-    public router: Router  
-  ) {}
+    public authHttp: AuthHttp, 
+    public router: Router //,
+ //   public JwtHelper:JwtHelper 
+  ) { 
+
+    this.jwt = localStorage.getItem('id_token');
+    console.log("JWT TOKEN IS " , this.jwt  , window /*, JwtHelper.decodeToken(this.jwt)*/ );
+    // this.decodedJwt = this.jwt && window.jwt_decode(this.jwt);
+  }
 
 
   getHeroesList (): Observable<Hero[]> {

@@ -1,4 +1,4 @@
-<div class="login jumbotron center-block">
+<!-- <div class="login jumbotron center-block">
   <h1>Login</h1>
   <form role="form" (submit)="login($event, username.value, password.value)">
   <div class="form-group">
@@ -10,6 +10,27 @@
     <input type="password" #password class="form-control" id="password" placeholder="Password">
   </div>
   <button type="submit" class="btn btn-default">Submit</button>
-    <!-- <a [routerLink]="['/signup']">Click here to Signup</a> -->
 </form>
-</div>
+</div> -->
+
+
+
+<div  id="login-box" class="form-box ng-scope">
+            <div class="header">Sign In</div>
+            <form id="login_form" role="form" (submit)="login($event, username.value, password.value)" name="login_form" class="">
+                <div class="body bg-gray">
+                    <div  class="form-group">
+                    <input type="text" #username class="form-control" id="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                          <input type="password" #password class="form-control" id="password" placeholder="Password">
+                    </div>          
+
+                </div>
+                <div class="footer">                                                               
+                    <button  class="btn bg-olive btn-block" type="submit" >Sign in</button>  
+                    
+                </div>
+            </form>
+
+             </div>

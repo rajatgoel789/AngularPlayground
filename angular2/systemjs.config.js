@@ -23,9 +23,12 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js', //Enables A2 Forms
       'angular2-jwt':  'npm:angular2-jwt/angular2-jwt.js',
       'js-base64':'npm:js-base64/base64.js',
+      // 'jwt-decode':'npm:jwt-decode/lib/index.js', 
+      '@ng-bootstrap/ng-bootstrap': 'node_modules/@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js',
+
       'buffer':'@empty',
       // other libraries
-      'rxjs':                       'npm:rxjs', //
+      'rxjs':   'npm:rxjs', //
       //'angular2-in-memory-web-api': 'npm:angular2-in-memory-web-api',
     },
     // packages tells the System loader how to load when no filename and/or no extension

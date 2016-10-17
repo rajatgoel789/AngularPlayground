@@ -13,11 +13,21 @@ var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var http_1 = require('@angular/http');
 var Observable_1 = require('rxjs/Observable');
+var angular2_jwt_1 = require('angular2-jwt');
+// constructor(public router: Router, public http: Http,) {
+//    this.jwt = localStorage.getItem('id_token');
+//    this.decodedJwt = this.jwt && window.jwt_decode(this.jwt);
+//  }
 var HeroService = (function () {
-    function HeroService(http, router) {
+    function HeroService(http, authHttp, router //,
+        ) {
         this.http = http;
+        this.authHttp = authHttp;
         this.router = router;
         this.heroesUrl = 'http://localhost:1337/product/';
+        this.jwt = localStorage.getItem('id_token');
+        console.log("JWT TOKEN IS ", this.jwt, window /*, JwtHelper.decodeToken(this.jwt)*/);
+        // this.decodedJwt = this.jwt && window.jwt_decode(this.jwt);
     }
     HeroService.prototype.getHeroesList = function () {
         return this.http.get(this.heroesUrl)
@@ -64,7 +74,7 @@ var HeroService = (function () {
     };
     HeroService = __decorate([
         core_1.Injectable(), 
-        __metadata('design:paramtypes', [http_1.Http, router_1.Router])
+        __metadata('design:paramtypes', [http_1.Http, angular2_jwt_1.AuthHttp, router_1.Router])
     ], HeroService);
     return HeroService;
 }());

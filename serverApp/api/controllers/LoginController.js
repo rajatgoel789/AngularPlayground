@@ -5,6 +5,12 @@
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 
+var secret =  "Angular server Apps !" ; 
+	jwt    = require("jsonwebtoken"); 
+
+function createToken(user) {
+  return jwt.sign(_.omit(user, 'password'), secret, { expiresIn: 60*60*5 });
+}
 module.exports = {
 
 	index: function(req, res) {
@@ -22,8 +28,8 @@ module.exports = {
 			 if(!user.length){
 			 	return res.status(400).json({error:"Invalid Username/Password"})
 			 }
-			 delete  user[0].password;
-			res.json(user[0]);
+			 // delete  user[0].password;
+			res.json({id_token: createToken(user[0]) });
 		
 		})	
 

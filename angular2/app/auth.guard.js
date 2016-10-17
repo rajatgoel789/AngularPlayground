@@ -16,6 +16,7 @@ var AuthGuard = (function () {
         this.router = router;
     }
     AuthGuard.prototype.canActivate = function () {
+        console.log(' ****Here in the check**** ', angular2_jwt_1.tokenNotExpired());
         if (angular2_jwt_1.tokenNotExpired()) {
             return true;
         }

@@ -5,14 +5,16 @@ import { HttpModule, JsonpModule }  from '@angular/http';
 
 import { AppComponent }         from './app.component';
 import { AUTH_PROVIDERS }       from 'angular2-jwt';
+
 import { DashboardComponent }   from './dashboard.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 import { HeroAddComponent }     from './hero-add.component';
 import { HeroesComponent }      from './heroes.component';
 import { HeroService }          from './hero.service';
 import { routing }              from './app.routing';
-import { Login }              from './login';
-
+import { Login }                from './login';
+import { AuthGuard }            from './auth.guard';
+// import {NgbModule}              from '@ng-bootstrap/ng-bootstrap';
 
 import './rxjso'
 
@@ -23,7 +25,8 @@ import './rxjso'
     FormsModule,
     HttpModule,
     JsonpModule,    
-    routing
+    routing,
+    // NgbModule.forRoot()
   ],
   declarations: [
     AppComponent,
@@ -34,7 +37,7 @@ import './rxjso'
     Login
   ],
   providers: [
-    HeroService , ...AUTH_PROVIDERS
+    HeroService , AUTH_PROVIDERS  , AuthGuard 
   ],
   bootstrap: [ AppComponent ]
 })
