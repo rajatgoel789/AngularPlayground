@@ -9,19 +9,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
 // import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 var AppComponent = (function () {
-    function AppComponent() {
+    function AppComponent(router) {
+        this.router = router;
         this.title = 'Playground :: Angular2';
         this.menuDisplay = true;
     }
+    AppComponent.prototype.logout = function () {
+        localStorage.removeItem('id_token');
+        this.router.navigate(['login']);
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n    <h1>{{title}}</h1>\n    <nav  *ngIf=\"true\" >\n      <a routerLink=\"/dashboard\" routerLinkActive=\"active\">Dashboard</a>\n      <a routerLink=\"/heroes\" routerLinkActive=\"active\">Heroes</a>\n      <a routerLink=\"/add\" routerLinkActive=\"active\">Add New</a> \n      <a  routerLinkActive=\"active\"> Logout </a> \n    </nav>\n    <router-outlet></router-outlet>\n  ",
+            template: "\n    <h1>{{title}}</h1>\n    <nav  *ngIf=\"true\" >\n      <a routerLink=\"/dashboard\" routerLinkActive=\"active\">Dashboard</a>\n      <a routerLink=\"/heroes\" routerLinkActive=\"active\">Heroes</a>\n      <a routerLink=\"/add\" routerLinkActive=\"active\">Add New</a> \n      <a  routerLinkActive=\"active\" (click)=\"logout()\" > Logout </a> \n    </nav>\n    <router-outlet ></router-outlet>\n  ",
             styleUrls: ['app/bootstrap.min.css', 'app/app.component.css'],
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [router_1.Router])
     ], AppComponent);
     return AppComponent;
 }());
