@@ -1,0 +1,1152 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"RE",
+				"req"
+			],
+			[
+				"res",
+				"resp"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"conn",
+				"connection"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
+				"sou",
+				"source"
+			],
+			[
+				"sour",
+				"source"
+			],
+			[
+				"cron",
+				"cronResponse"
+			],
+			[
+				"ERr",
+				"err"
+			],
+			[
+				"typ",
+				"typeUpdateData"
+			],
+			[
+				"QU",
+				"BASE_URL_QUEALTH"
+			],
+			[
+				"fir",
+				"firstdateUpdate"
+			],
+			[
+				"date",
+				"dateUpdate"
+			],
+			[
+				"vigo",
+				"vigorousMins"
+			],
+			[
+				"mode",
+				"moderateMins"
+			],
+			[
+				"retu",
+				"returnObj"
+			],
+			[
+				"su",
+				"succ"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"da",
+				"dailyMetMins"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"act",
+				"activityResponse"
+			],
+			[
+				"Query",
+				"queryString"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"met",
+				"metStartDay"
+			],
+			[
+				"email",
+				"email_id"
+			],
+			[
+				"to",
+				"todayDate"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"con",
+				"connection1"
+			],
+			[
+				"late",
+				"lateEndRange"
+			],
+			[
+				"la",
+				"lateStartRange"
+			],
+			[
+				"end",
+				"endRange"
+			],
+			[
+				"ran",
+				"rangeStart"
+			],
+			[
+				"vi",
+				"vigorousRangeObj"
+			],
+			[
+				"que",
+				"query_string"
+			],
+			[
+				"qu",
+				"query_string"
+			],
+			[
+				"qeu",
+				"query_string"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"start",
+				"start_date"
+			],
+			[
+				"min",
+				"minute"
+			],
+			[
+				"sort",
+				"sortBy"
+			],
+			[
+				"bio",
+				"biometricsArr"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"resul",
+				"resultData"
+			],
+			[
+				"vali",
+				"validic_id"
+			],
+			[
+				"we",
+				"weight"
+			],
+			[
+				"data",
+				"dataNotExist"
+			],
+			[
+				"dataso",
+				"datasource"
+			],
+			[
+				"Data",
+				"datasource"
+			],
+			[
+				"me",
+				"metEndDate"
+			],
+			[
+				"fet",
+				"fetch_date"
+			],
+			[
+				"inser",
+				"insertActivityData"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"start_",
+				"start_time"
+			],
+			[
+				"quer",
+				"queryString"
+			],
+			[
+				"YY",
+				"YYYY-MM-DD"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"dat",
+				"date_day"
+			],
+			[
+				"ac",
+				"activity_date"
+			],
+			[
+				"form",
+				"format"
+			],
+			[
+				"soe",
+				"sortedArray"
+			],
+			[
+				"weig",
+				"weight"
+			],
+			[
+				"issameo",
+				"isSameOrAfter"
+			],
+			[
+				"isA",
+				"isAfter"
+			],
+			[
+				"isAfter",
+				"isSameOrAfter"
+			],
+			[
+				"cno",
+				"console"
+			],
+			[
+				"las",
+				"last_date"
+			],
+			[
+				"pra",
+				"parameters"
+			],
+			[
+				"ty",
+				"typeUpdateObj"
+			],
+			[
+				"allow",
+				"allowedDevicesObj"
+			],
+			[
+				"type",
+				"typeUpdate"
+			],
+			[
+				"un",
+				"uniqueWeightArr"
+			],
+			[
+				"body",
+				"bodyData"
+			],
+			[
+				"is",
+				"isAreadyExist"
+			],
+			[
+				"device",
+				"deviceType"
+			],
+			[
+				"pri",
+				"priority_order"
+			],
+			[
+				"dev",
+				"deviceType"
+			],
+			[
+				"connec",
+				"connectUrl"
+			],
+			[
+				"result",
+				"resultValidic"
+			],
+			[
+				"or",
+				"organisation_id"
+			],
+			[
+				"inse",
+				"insertArr"
+			],
+			[
+				"do",
+				"docArray"
+			],
+			[
+				"ins",
+				"inserArr"
+			],
+			[
+				"UPdate",
+				"updateActivity"
+			],
+			[
+				"Que",
+				"queryString"
+			],
+			[
+				"QUE",
+				"queryString"
+			],
+			[
+				"er",
+				"err"
+			],
+			[
+				"in",
+				"initiateProcess"
+			],
+			[
+				"doc",
+				"docArray"
+			],
+			[
+				"vig",
+				"vigorous_minutes"
+			],
+			[
+				"li",
+				"light_minutes"
+			],
+			[
+				"users",
+				"usersArray"
+			],
+			[
+				"ta",
+				"targetMetMinObj"
+			],
+			[
+				"ADD",
+				"add"
+			],
+			[
+				"minu",
+				"minutes"
+			],
+			[
+				"human",
+				"humanData"
+			],
+			[
+				"mT",
+				"METs"
+			],
+			[
+				"en",
+				"end"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"tim",
+				"timestamp"
+			],
+			[
+				"gen",
+				"genderObj"
+			],
+			[
+				"mal",
+				"male"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"e",
+				"err"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"day",
+				"dayWeightObj"
+			],
+			[
+				"datas",
+				"dataSource"
+			],
+			[
+				"req",
+				"reqbody"
+			],
+			[
+				"limit",
+				"limit_days"
+			],
+			[
+				"au",
+				"authorization_token"
+			],
+			[
+				"Ca",
+				"callback"
+			],
+			[
+				"app",
+				"apptype"
+			],
+			[
+				"v",
+				"val"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"toek",
+				"tokenObj"
+			],
+			[
+				"ge",
+				"genetatedToken"
+			],
+			[
+				"vigou",
+				"vigorous_mins"
+			],
+			[
+				"julian",
+				"julian_day"
+			],
+			[
+				"stat",
+				"start"
+			],
+			[
+				"jul",
+				"julian_day"
+			],
+			[
+				"loo",
+				"loopvalstart"
+			],
+			[
+				"filter",
+				"filteredArray"
+			],
+			[
+				"filtre",
+				"filteredArray"
+			],
+			[
+				"source",
+				"source_id"
+			],
+			[
+				"new",
+				"newDevices"
+			],
+			[
+				"souce",
+				"source_id"
+			],
+			[
+				"reque",
+				"requestUri"
+			],
+			[
+				"us",
+				"userType"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".sublime-project",
+			"settings":
+			{
+				"buffer_size": 169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nishantk/Official/Projects/rth/validic/codebase/views/documentation.ejs",
+			"settings":
+			{
+				"buffer_size": 3052,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n	\"status\": \"success\",\n	\"messageId\": 200,\n	\"message\": \" retrieved successfully\",\n	\"data\": [{\n		\"_id\": \"5885f9e83d4eea13e1d91e03\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843774\",\n			\"ProjectName\": \"roadtohealth\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f78\",\n			\"fld_empFirstName\": \"Aditya\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chakraborty\"\n		},\n		\"created\": \"2017-01-23T12:41:12.477Z\"\n	}, {\n		\"_id\": \"5885b56f3d4eea13e1d91d37\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c64716907\",\n			\"ProjectName\": \"Payrollandaccountingsoftware\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e974060cb\",\n			\"fld_empFirstName\": \"Nitin\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-23T07:49:03.481Z\"\n	}, {\n		\"_id\": \"5885b1733d4eea13e1d91d24\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437ab\",\n			\"ProjectName\": \"Web Based Work Order and Employee Management Sys\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e9740606e\",\n			\"fld_empFirstName\": \"Bhushan\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Dod\"\n		},\n		\"created\": \"2017-01-23T07:32:03.200Z\"\n	}, {\n		\"_id\": \"5883175d3d4eea13e1d91c80\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843845\",\n			\"ProjectName\": \"Wireframes Alist\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f86\",\n			\"fld_empFirstName\": \"Sahil\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-21T08:10:05.488Z\"\n	}, {\n		\"_id\": \"58824bf13d4eea13e1d91c4c\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437b9\",\n			\"ProjectName\": \"Operation Trust Deed\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f03\",\n			\"fld_empFirstName\": \"Simarjeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-20T17:42:09.988Z\"\n	}, {\n		\"_id\": \"588235373d4eea13e1d91c46\",\n		\"ProjectId\": {\n			\"_id\": \"582075f42816264ccf8391d3\",\n			\"ProjectName\": \"KidsBookOnline\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f9f\",\n			\"fld_empFirstName\": \"Tushar\",\n			\"fld_empMiddleName\": \"Kanti\",\n			\"fld_empLastName\": \"Choudhary\"\n		},\n		\"created\": \"2017-01-20T16:05:11.312Z\"\n	}, {\n		\"_id\": \"58822f6e3d4eea13e1d91c3a\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843791\",\n			\"ProjectName\": \"Razor MVC HTML5 Project\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740601c\",\n			\"fld_empFirstName\": \"Kampaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chaudhary\"\n		},\n		\"created\": \"2017-01-20T15:40:30.558Z\"\n	}, {\n		\"_id\": \"588223fa3d4eea13e1d91bfe\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843779\",\n			\"ProjectName\": \"Doors Plus Ongoing\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405ee4\",\n			\"fld_empFirstName\": \"Pralyankar\",\n			\"fld_empMiddleName\": \"Kumar\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-20T14:51:38.306Z\"\n	}, {\n		\"_id\": \"58821e0f3d4eea13e1d91bf5\",\n		\"ProjectId\": {\n			\"_id\": \"57e9f646d08a5161584514a6\",\n			\"ProjectName\": \"The Dish\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97406063\",\n			\"fld_empFirstName\": \"Parul\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Shukla\"\n		},\n		\"created\": \"2017-01-20T14:26:23.464Z\"\n	}, {\n		\"_id\": \"58821bc23d4eea13e1d91bf1\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843826\",\n			\"ProjectName\": \"NetScore\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fe1\",\n			\"fld_empFirstName\": \"Lalit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Karande\"\n		},\n		\"created\": \"2017-01-20T14:16:34.558Z\"\n	}, {\n		\"_id\": \"58821a543d4eea13e1d91be9\",\n		\"ProjectId\": {\n			\"_id\": \"585a15ea99a0aa55a647f57c\",\n			\"ProjectName\": \"IOT platform for radio monitoring\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97406063\",\n			\"fld_empFirstName\": \"Parul\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Shukla\"\n		},\n		\"created\": \"2017-01-20T14:10:28.214Z\"\n	}, {\n		\"_id\": \"5882117f3d4eea13e1d91b9e\",\n		\"ProjectId\": {\n			\"_id\": \"57b56390d28e6e71a62ec96d\",\n			\"ProjectName\": \"Style Compare\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f23134f0213bb79b9e4a6e\",\n			\"fld_empFirstName\": \"Gazal\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaintura\"\n		},\n		\"created\": \"2017-01-20T13:32:47.644Z\"\n	}, {\n		\"_id\": \"58820fdd3d4eea13e1d91b85\",\n		\"ProjectId\": {\n			\"_id\": \"58772e11bd29fa38bad01c5b\",\n			\"ProjectName\": \"Delivery Management App\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f24\",\n			\"fld_empFirstName\": \"Nishant\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kumar\"\n		},\n		\"created\": \"2017-01-20T13:25:49.222Z\"\n	}, {\n		\"_id\": \"58820ed33d4eea13e1d91b60\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437c1\",\n			\"ProjectName\": \"Regulation Management System\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fe2\",\n			\"fld_empFirstName\": \"Ashish\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Singla\"\n		},\n		\"created\": \"2017-01-20T13:21:23.412Z\"\n	}, {\n		\"_id\": \"5882081d3d4eea13e1d91b2c\",\n		\"ProjectId\": {\n			\"_id\": \"57cff2f2bdc161067039c26f\",\n			\"ProjectName\": \"Marine Management System\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740601c\",\n			\"fld_empFirstName\": \"Kampaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chaudhary\"\n		},\n		\"created\": \"2017-01-20T12:52:45.154Z\"\n	}, {\n		\"_id\": \"588207a23d4eea13e1d91b15\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843817\",\n			\"ProjectName\": \"Kuucall\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f23134f0213bb79b9e4a6e\",\n			\"fld_empFirstName\": \"Gazal\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaintura\"\n		},\n		\"created\": \"2017-01-20T12:50:42.671Z\"\n	}, {\n		\"_id\": \"588207a03d4eea13e1d91b12\",\n		\"ProjectId\": {\n			\"_id\": \"58415ee683593d0fcdbee574\",\n			\"ProjectName\": \"Dotalign 2\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e9740609f\",\n			\"fld_empFirstName\": \"Kartik\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Bhave\"\n		},\n		\"created\": \"2017-01-20T12:50:40.198Z\"\n	}, {\n		\"_id\": \"5882028d3d4eea13e1d91ac9\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c647168f5\",\n			\"ProjectName\": \"Event Mgmt\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f24300f0213bb79b9e4a89\",\n			\"fld_empFirstName\": \"Avinash\",\n			\"fld_empMiddleName\": \"Kumar\",\n			\"fld_empLastName\": \"Raikwar\"\n		},\n		\"created\": \"2017-01-20T12:29:01.930Z\"\n	}, {\n		\"_id\": \"588200ba3d4eea13e1d91ab7\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843780\",\n			\"ProjectName\": \"smartShiping\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f1e\",\n			\"fld_empFirstName\": \"Pradeep\",\n			\"fld_empMiddleName\": \"Kumar\",\n			\"fld_empLastName\": \"Maurya\"\n		},\n		\"created\": \"2017-01-20T12:21:14.806Z\"\n	}, {\n		\"_id\": \"5881ffcb3d4eea13e1d91aaf\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e199\",\n			\"ProjectName\": \"ISOX \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e974060a2\",\n			\"fld_empFirstName\": \"Pankaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kumar\"\n		},\n		\"created\": \"2017-01-20T12:17:15.005Z\"\n	}, {\n		\"_id\": \"5881fd6a3d4eea13e1d91a86\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c64716905\",\n			\"ProjectName\": \"HeathDataVision\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f45\",\n			\"fld_empFirstName\": \"Reena\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Mittal\"\n		},\n		\"created\": \"2017-01-20T12:07:06.683Z\"\n	}, {\n		\"_id\": \"5881f8853d4eea13e1d91a3f\",\n		\"ProjectId\": {\n			\"_id\": \"579f3190b73203c8d76a4aa0\",\n			\"ProjectName\": \"Audit Management System\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22c19f0213bb79b9e4a5b\",\n			\"fld_empFirstName\": \"Kishorlal\",\n			\"fld_empMiddleName\": \"Babu\",\n			\"fld_empLastName\": \"R.K\"\n		},\n		\"created\": \"2017-01-20T11:46:13.892Z\"\n	}, {\n		\"_id\": \"5881f4933d4eea13e1d91a01\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437ea\",\n			\"ProjectName\": \"Geo Location Based Mobile App \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f03\",\n			\"fld_empFirstName\": \"Simarjeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-20T11:29:23.803Z\"\n	}, {\n		\"_id\": \"5881f4573d4eea13e1d919f9\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884376d\",\n			\"ProjectName\": \"Rhapsody\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f52\",\n			\"fld_empFirstName\": \"Rajeev\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kumar - II\"\n		},\n		\"created\": \"2017-01-20T11:28:23.496Z\"\n	}, {\n		\"_id\": \"5881f1433d4eea13e1d919e8\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884378c\",\n			\"ProjectName\": \"KP Caseconnect Maintenance and Support\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f63\",\n			\"fld_empFirstName\": \"Mohit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sah\"\n		},\n		\"created\": \"2017-01-20T11:15:15.218Z\"\n	}, {\n		\"_id\": \"5881f0693d4eea13e1d919df\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884376c\",\n			\"ProjectName\": \"BIS\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f0b\",\n			\"fld_empFirstName\": \"Himanshu\",\n			\"fld_empMiddleName\": \"Kant \",\n			\"fld_empLastName\": \"Mehta\"\n		},\n		\"created\": \"2017-01-20T11:11:37.383Z\"\n	}, {\n		\"_id\": \"5881ec153d4eea13e1d919a1\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884379f\",\n			\"ProjectName\": \"API Integration Expert with Drupal Experience - SaaS Program\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f78\",\n			\"fld_empFirstName\": \"Aditya\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chakraborty\"\n		},\n		\"created\": \"2017-01-20T10:53:09.792Z\"\n	}, {\n		\"_id\": \"5881e5063d4eea13e1d91975\",\n		\"ProjectId\": {\n			\"_id\": \"5859250a99a0aa55a647f481\",\n			\"ProjectName\": \"Sondermind\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740616c\",\n			\"fld_empFirstName\": \"Surjit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-20T10:23:02.913Z\"\n	}, {\n		\"_id\": \"5881e5053d4eea13e1d91967\",\n		\"ProjectId\": {\n			\"_id\": \"5859250a99a0aa55a647f481\",\n			\"ProjectName\": \"Sondermind\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740616c\",\n			\"fld_empFirstName\": \"Surjit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-20T10:23:01.055Z\"\n	}, {\n		\"_id\": \"5881dd133d4eea13e1d9194b\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843768\",\n			\"ProjectName\": \"Esources\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f33\",\n			\"fld_empFirstName\": \"Sachin\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Pundir\"\n		},\n		\"created\": \"2017-01-20T09:49:07.075Z\"\n	}, {\n		\"_id\": \"5881da653d4eea13e1d9193e\",\n		\"ProjectId\": {\n			\"_id\": \"57e21340357b279788427286\",\n			\"ProjectName\": \"Ultimate Ears \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f9f\",\n			\"fld_empFirstName\": \"Tushar\",\n			\"fld_empMiddleName\": \"Kanti\",\n			\"fld_empLastName\": \"Choudhary\"\n		},\n		\"created\": \"2017-01-20T09:37:41.342Z\"\n	}, {\n		\"_id\": \"5881d6383d4eea13e1d91915\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843790\",\n			\"ProjectName\": \"Coveport -Development\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740615a\",\n			\"fld_empFirstName\": \"Gaurav\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Korla\"\n		},\n		\"created\": \"2017-01-20T09:19:52.285Z\"\n	}, {\n		\"_id\": \"5881d0f13d4eea13e1d918e3\",\n		\"ProjectId\": {\n			\"_id\": \"58084bb397696debf9fb24ff\",\n			\"ProjectName\": \"Schedule It Enhancement\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740616c\",\n			\"fld_empFirstName\": \"Surjit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-20T08:57:21.086Z\"\n	}, {\n		\"_id\": \"5881baa23d4eea13e1d918cd\",\n		\"ProjectId\": {\n			\"_id\": \"57f375b7d08a5161584514b8\",\n			\"ProjectName\": \"Foomanchew Gen 2 2 Web\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405eec\",\n			\"fld_empFirstName\": \"Vinod\",\n			\"fld_empMiddleName\": \"Kumar\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-20T07:22:10.131Z\"\n	}, {\n		\"_id\": \"5880cce93d4eea13e1d91810\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884385d\",\n			\"ProjectName\": \"RTMS - NuRealtor\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fbf\",\n			\"fld_empFirstName\": \"Aniket\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Takarkhede\"\n		},\n		\"created\": \"2017-01-19T14:27:53.130Z\"\n	}, {\n		\"_id\": \"5880c6f93d4eea13e1d917f7\",\n		\"ProjectId\": {\n			\"_id\": \"57b56390d28e6e71a62ec96e\",\n			\"ProjectName\": \"BigFin - Loan Mgmt web App\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e974061d0\",\n			\"fld_empFirstName\": \"Amit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \" Kumar\"\n		},\n		\"created\": \"2017-01-19T14:02:33.721Z\"\n	}, {\n		\"_id\": \"5880c2d63d4eea13e1d917ef\",\n		\"ProjectId\": {\n			\"_id\": \"582078762816264ccf8391de\",\n			\"ProjectName\": \"FOREAL\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22b9df0213bb79b9e4a59\",\n			\"fld_empFirstName\": \"Sunil\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Shinde\"\n		},\n		\"created\": \"2017-01-19T13:44:54.446Z\"\n	}, {\n		\"_id\": \"5880c06c3d4eea13e1d917e6\",\n		\"ProjectId\": {\n			\"_id\": \"57cd3bb946b01d6a89c63547\",\n			\"ProjectName\": \"vCIO Pro Software\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e97406165\",\n			\"fld_empFirstName\": \"Sunil kumar\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-19T13:34:36.866Z\"\n	}, {\n		\"_id\": \"5880b1863d4eea13e1d917bb\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884385b\",\n			\"ProjectName\": \"Nomad Aviation phase 2\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f23369f0213bb79b9e4a77\",\n			\"fld_empFirstName\": \"Ubed\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Khan\"\n		},\n		\"created\": \"2017-01-19T12:31:02.814Z\"\n	}, {\n		\"_id\": \"5880a8ba9c3e8b0e63786c00\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884379c\",\n			\"ProjectName\": \"Solarsitedesign PM\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97406004\",\n			\"fld_empFirstName\": \"Raman\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kumar\"\n		},\n		\"created\": \"2017-01-19T11:53:30.639Z\"\n	}, {\n		\"_id\": \"5880a2af9c3e8b0e63786bdc\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1dd\",\n			\"ProjectName\": \"Epic Valet website\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f03\",\n			\"fld_empFirstName\": \"Simarjeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-19T11:27:43.031Z\"\n	}, {\n		\"_id\": \"5880a2779c3e8b0e63786bd8\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c647168fe\",\n			\"ProjectName\": \"Bikuh-iOS\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f53\",\n			\"fld_empFirstName\": \"Sumeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Bansal\"\n		},\n		\"created\": \"2017-01-19T11:26:47.945Z\"\n	}, {\n		\"_id\": \"58809e6b9c3e8b0e63786bb8\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c647168fd\",\n			\"ProjectName\": \"Bikuh-Android\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f53\",\n			\"fld_empFirstName\": \"Sumeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Bansal\"\n		},\n		\"created\": \"2017-01-19T11:09:31.469Z\"\n	}, {\n		\"_id\": \"58809ce09c3e8b0e63786bb3\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1c7\",\n			\"ProjectName\": \"iOS and Website Development and Management\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740602e\",\n			\"fld_empFirstName\": \"Ghanshyam\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Dongare\"\n		},\n		\"created\": \"2017-01-19T11:02:56.809Z\"\n	}, {\n		\"_id\": \"588096379c3e8b0e63786b95\",\n		\"ProjectId\": {\n			\"_id\": \"57b56390d28e6e71a62ec972\",\n			\"ProjectName\": \"Odd Jobs\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740616c\",\n			\"fld_empFirstName\": \"Surjit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-19T10:34:31.646Z\"\n	}, {\n		\"_id\": \"5880926a9c3e8b0e63786b8a\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1c8\",\n			\"ProjectName\": \"iOS and Website Development and Management\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fcf\",\n			\"fld_empFirstName\": \"Pawan\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Khadgi\"\n		},\n		\"created\": \"2017-01-19T10:18:18.032Z\"\n	}, {\n		\"_id\": \"588092179c3e8b0e63786b7a\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884378e\",\n			\"ProjectName\": \"Investor Tracker - Maintenance\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f3e\",\n			\"fld_empFirstName\": \"Sanjay\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Bhardwaj\"\n		},\n		\"created\": \"2017-01-19T10:16:55.058Z\"\n	}, {\n		\"_id\": \"5880880f9c3e8b0e63786b5c\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884377d\",\n			\"ProjectName\": \"Glance\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740615a\",\n			\"fld_empFirstName\": \"Gaurav\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Korla\"\n		},\n		\"created\": \"2017-01-19T09:34:07.785Z\"\n	}, {\n		\"_id\": \"5880841f9c3e8b0e63786b49\",\n		\"ProjectId\": {\n			\"_id\": \"5859250a99a0aa55a647f481\",\n			\"ProjectName\": \"Sondermind\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f3d\",\n			\"fld_empFirstName\": \"Ankush\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-19T09:17:19.734Z\"\n	}, {\n		\"_id\": \"58807ea59c3e8b0e63786b2b\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843793\",\n			\"ProjectName\": \"Create An Invocing Website Phase 5\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fd6\",\n			\"fld_empFirstName\": \"Mohamed\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Salman\"\n		},\n		\"created\": \"2017-01-19T08:53:57.565Z\"\n	}, {\n		\"_id\": \"58805e1f36fcbe693fd5928f\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843769\",\n			\"ProjectName\": \"American Care\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f16\",\n			\"fld_empFirstName\": \"Mridul\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-19T06:35:11.071Z\"\n	}, {\n		\"_id\": \"5880473f36fcbe693fd59240\",\n		\"ProjectId\": {\n			\"_id\": \"582075bc2816264ccf8391d0\",\n			\"ProjectName\": \"Create ERP software based off of MYSql - ph2\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f33\",\n			\"fld_empFirstName\": \"Sachin\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Pundir\"\n		},\n		\"created\": \"2017-01-19T04:57:35.012Z\"\n	}, {\n		\"_id\": \"587f7b3a36fcbe693fd591f4\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e193\",\n			\"ProjectName\": \"Alleva Soft Development Phase\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22cbcf0213bb79b9e4a5f\",\n			\"fld_empFirstName\": \"Sumit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Jain\"\n		},\n		\"created\": \"2017-01-18T14:27:06.201Z\"\n	}, {\n		\"_id\": \"587f770036fcbe693fd591ee\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437d2\",\n			\"ProjectName\": \"iAgent App\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740601c\",\n			\"fld_empFirstName\": \"Kampaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chaudhary\"\n		},\n		\"created\": \"2017-01-18T14:09:04.422Z\"\n	}, {\n		\"_id\": \"587f652aaa8af91567a29fc0\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843827\",\n			\"ProjectName\": \"Tryst beauty project\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740616c\",\n			\"fld_empFirstName\": \"Surjit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-18T12:52:58.537Z\"\n	}, {\n		\"_id\": \"587f328131c7ab4a921963b1\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437b3\",\n			\"ProjectName\": \"Foomanchew Gen 2 Android\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f8f\",\n			\"fld_empFirstName\": \"Jagdeep\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-18T09:16:49.046Z\"\n	}, {\n		\"_id\": \"587f284424fe6222eee3c346\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884379e\",\n			\"ProjectName\": \"Property Inspection\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740615a\",\n			\"fld_empFirstName\": \"Gaurav\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Korla\"\n		},\n		\"created\": \"2017-01-18T08:33:08.310Z\"\n	}, {\n		\"_id\": \"587f0d12f71ae8656f904b51\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884377c\",\n			\"ProjectName\": \"OHS - Web App\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97406013\",\n			\"fld_empFirstName\": \"Shashi\",\n			\"fld_empMiddleName\": \"Bhushan\",\n			\"fld_empLastName\": \"- I\"\n		},\n		\"created\": \"2017-01-18T06:37:06.871Z\"\n	}, {\n		\"_id\": \"587ef846be94904e65fbf0d4\",\n		\"ProjectId\": {\n			\"_id\": \"58084bb397696debf9fb24ff\",\n			\"ProjectName\": \"Schedule It Enhancement\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f56\",\n			\"fld_empFirstName\": \"Rajan\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kumar\"\n		},\n		\"created\": \"2017-01-18T05:08:22.882Z\"\n	}, {\n		\"_id\": \"587e221bbe94904e65fbf080\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843778\",\n			\"ProjectName\": \"Worldarchives Project\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22c7ef0213bb79b9e4a5d\",\n			\"fld_empFirstName\": \"Deepinder\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-17T13:54:35.484Z\"\n	}, {\n		\"_id\": \"587e1588be94904e65fbf066\",\n		\"ProjectId\": {\n			\"_id\": \"582076d62816264ccf8391d6\",\n			\"ProjectName\": \"Financial App\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740615a\",\n			\"fld_empFirstName\": \"Gaurav\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Korla\"\n		},\n		\"created\": \"2017-01-17T13:00:56.705Z\"\n	}, {\n		\"_id\": \"587e0346ae6b3816ad2e1185\",\n		\"ProjectId\": {\n			\"_id\": \"585cc5ba17a36b5eb4cd309e\",\n			\"ProjectName\": \"Kidscamp\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f5f\",\n			\"fld_empFirstName\": \"Ahmad\",\n			\"fld_empMiddleName\": \"Sayeed\",\n			\"fld_empLastName\": \"Zaman\"\n		},\n		\"created\": \"2017-01-17T11:43:02.851Z\"\n	}, {\n		\"_id\": \"587e025fae6b3816ad2e1162\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884381c\",\n			\"ProjectName\": \"3D Graphics Marketplace \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f5f\",\n			\"fld_empFirstName\": \"Ahmad\",\n			\"fld_empMiddleName\": \"Sayeed\",\n			\"fld_empLastName\": \"Zaman\"\n		},\n		\"created\": \"2017-01-17T11:39:11.147Z\"\n	}, {\n		\"_id\": \"587de80447c5b815e72b1803\",\n		\"ProjectId\": {\n			\"_id\": \"57f379b4d08a5161584514b9\",\n			\"ProjectName\": \"Foomanchew Gen 2 2 iOS app\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22cbcf0213bb79b9e4a5f\",\n			\"fld_empFirstName\": \"Sumit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Jain\"\n		},\n		\"created\": \"2017-01-17T09:46:44.273Z\"\n	}, {\n		\"_id\": \"587de13047c5b815e72b17e3\",\n		\"ProjectId\": {\n			\"_id\": \"585244497c8e82e701ab7a45\",\n			\"ProjectName\": \"washify app - iOS\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22cbcf0213bb79b9e4a5f\",\n			\"fld_empFirstName\": \"Sumit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Jain\"\n		},\n		\"created\": \"2017-01-17T09:17:36.327Z\"\n	}, {\n		\"_id\": \"587cc72be807a329b09b93c6\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843864\",\n			\"ProjectName\": \"TNP-iOS\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22cbcf0213bb79b9e4a5f\",\n			\"fld_empFirstName\": \"Sumit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Jain\"\n		},\n		\"created\": \"2017-01-16T13:14:19.680Z\"\n	}, {\n		\"_id\": \"587ca3e560def9565d66d9c4\",\n		\"ProjectId\": {\n			\"_id\": \"57fc9203bc91f338eab6fe26\",\n			\"ProjectName\": \"MM Work DPP\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405ee4\",\n			\"fld_empFirstName\": \"Pralyankar\",\n			\"fld_empMiddleName\": \"Kumar\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-16T10:43:49.690Z\"\n	}, {\n		\"_id\": \"587c70c854846f09864d58fe\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1b3\",\n			\"ProjectName\": \"Depot estimation program\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22cbcf0213bb79b9e4a5f\",\n			\"fld_empFirstName\": \"Sumit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Jain\"\n		},\n		\"created\": \"2017-01-16T07:05:44.484Z\"\n	}, {\n		\"_id\": \"587c661654846f09864d58e8\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843791\",\n			\"ProjectName\": \"Razor MVC HTML5 Project\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740601c\",\n			\"fld_empFirstName\": \"Kampaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chaudhary\"\n		},\n		\"created\": \"2017-01-16T06:20:06.355Z\"\n	}, {\n		\"_id\": \"587c638254846f09864d58d4\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843796\",\n			\"ProjectName\": \"Control Money Enhancements\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f233baf0213bb79b9e4a7a\",\n			\"fld_empFirstName\": \"Tushar\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sontakke\"\n		},\n		\"created\": \"2017-01-16T06:09:06.779Z\"\n	}, {\n		\"_id\": \"5878ed0e54846f09864d5840\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843826\",\n			\"ProjectName\": \"NetScore\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fe1\",\n			\"fld_empFirstName\": \"Lalit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Karande\"\n		},\n		\"created\": \"2017-01-13T15:06:54.175Z\"\n	}, {\n		\"_id\": \"5878e67d54846f09864d5828\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843779\",\n			\"ProjectName\": \"Doors Plus Ongoing\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f25\",\n			\"fld_empFirstName\": \"Jagdeep\",\n			\"fld_empMiddleName\": \"Singh\",\n			\"fld_empLastName\": \"Hundal\"\n		},\n		\"created\": \"2017-01-13T14:38:53.425Z\"\n	}, {\n		\"_id\": \"5878de4a54846f09864d5811\",\n		\"ProjectId\": {\n			\"_id\": \"582078762816264ccf8391de\",\n			\"ProjectName\": \"FOREAL\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22b9df0213bb79b9e4a59\",\n			\"fld_empFirstName\": \"Sunil\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Shinde\"\n		},\n		\"created\": \"2017-01-13T14:03:54.711Z\"\n	}, {\n		\"_id\": \"5878d0ab54846f09864d57f5\",\n		\"ProjectId\": {\n			\"_id\": \"579f3190b73203c8d76a4aa0\",\n			\"ProjectName\": \"Audit Management System\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f6a\",\n			\"fld_empFirstName\": \"Ashutosh\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Mishra\"\n		},\n		\"created\": \"2017-01-13T13:05:47.206Z\"\n	}, {\n		\"_id\": \"5878ca5754846f09864d57f0\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884383a\",\n			\"ProjectName\": \"Create ERP software based off of MYSql\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fbe\",\n			\"fld_empFirstName\": \"Jyoti\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Tripathi\"\n		},\n		\"created\": \"2017-01-13T12:38:47.697Z\"\n	}, {\n		\"_id\": \"5878bd7254846f09864d57b4\",\n		\"ProjectId\": {\n			\"_id\": \"5859250a99a0aa55a647f481\",\n			\"ProjectName\": \"Sondermind\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f3d\",\n			\"fld_empFirstName\": \"Ankush\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-13T11:43:46.600Z\"\n	}, {\n		\"_id\": \"5878b52854846f09864d577b\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437aa\",\n			\"ProjectName\": \"Datafeed Saas Program Developer - Phase 2\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f23369f0213bb79b9e4a77\",\n			\"fld_empFirstName\": \"Ubed\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Khan\"\n		},\n		\"created\": \"2017-01-13T11:08:24.399Z\"\n	}, {\n		\"_id\": \"5878ab0f54846f09864d5767\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1c8\",\n			\"ProjectName\": \"iOS and Website Development and Management\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fcf\",\n			\"fld_empFirstName\": \"Pawan\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Khadgi\"\n		},\n		\"created\": \"2017-01-13T10:25:19.135Z\"\n	}, {\n		\"_id\": \"5878a7b054846f09864d5750\",\n		\"ProjectId\": {\n			\"_id\": \"582076f42816264ccf8391d8\",\n			\"ProjectName\": \"Billing and Invoicing Application\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fd6\",\n			\"fld_empFirstName\": \"Mohamed\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Salman\"\n		},\n		\"created\": \"2017-01-13T10:10:56.256Z\"\n	}, {\n		\"_id\": \"5878a6c254846f09864d5722\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843778\",\n			\"ProjectName\": \"Worldarchives Project\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22c7ef0213bb79b9e4a5d\",\n			\"fld_empFirstName\": \"Deepinder\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-13T10:06:58.589Z\"\n	}, {\n		\"_id\": \"5878a3d554846f09864d56ff\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437ea\",\n			\"ProjectName\": \"Geo Location Based Mobile App \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740616c\",\n			\"fld_empFirstName\": \"Surjit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-13T09:54:29.277Z\"\n	}, {\n		\"_id\": \"587899d654846f09864d56b7\",\n		\"ProjectId\": {\n			\"_id\": \"58514a73aa3649ad958c1f9a\",\n			\"ProjectName\": \"Mediguru - Online Moderated Groups\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f08\",\n			\"fld_empFirstName\": \"Bhushan\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chandel\"\n		},\n		\"created\": \"2017-01-13T09:11:50.275Z\"\n	}, {\n		\"_id\": \"5878987554846f09864d56a7\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1dd\",\n			\"ProjectName\": \"Epic Valet website\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f03\",\n			\"fld_empFirstName\": \"Simarjeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-13T09:05:57.388Z\"\n	}, {\n		\"_id\": \"587894f354846f09864d5697\",\n		\"ProjectId\": {\n			\"_id\": \"58514a73aa3649ad958c1f9a\",\n			\"ProjectName\": \"Mediguru - Online Moderated Groups\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f08\",\n			\"fld_empFirstName\": \"Bhushan\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chandel\"\n		},\n		\"created\": \"2017-01-13T08:50:59.486Z\"\n	}, {\n		\"_id\": \"58787f6ebd29fa38bad01f67\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884379d\",\n			\"ProjectName\": \"washify POS 2015\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f52\",\n			\"fld_empFirstName\": \"Rajeev\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kumar - II\"\n		},\n		\"created\": \"2017-01-13T07:19:10.653Z\"\n	}, {\n		\"_id\": \"58787a52bd29fa38bad01f48\",\n		\"ProjectId\": {\n			\"_id\": \"58776445bd29fa38bad01d08\",\n			\"ProjectName\": \"SingLabs - Print on demand application\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f33\",\n			\"fld_empFirstName\": \"Sachin\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Pundir\"\n		},\n		\"created\": \"2017-01-13T06:57:22.390Z\"\n	}, {\n		\"_id\": \"587876c7bd29fa38bad01f31\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c64716905\",\n			\"ProjectName\": \"HeathDataVision\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f16\",\n			\"fld_empFirstName\": \"Mridul\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-13T06:42:15.732Z\"\n	}, {\n		\"_id\": \"58786196bd29fa38bad01ec9\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437b6\",\n			\"ProjectName\": \"BluePSCIE - Mean\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f41\",\n			\"fld_empFirstName\": \"Mohinder\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-13T05:11:50.717Z\"\n	}, {\n		\"_id\": \"58785bdfbd29fa38bad01eb4\",\n		\"ProjectId\": {\n			\"_id\": \"57cd3c7146b01d6a89c6354c\",\n			\"ProjectName\": \"iOrderFoods com iOS App\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e97406078\",\n			\"fld_empFirstName\": \"Navpreet\",\n			\"fld_empMiddleName\": \"Singh\",\n			\"fld_empLastName\": \"Gogana\"\n		},\n		\"created\": \"2017-01-13T04:47:27.336Z\"\n	}, {\n		\"_id\": \"58779c77bd29fa38bad01e6e\",\n		\"ProjectId\": {\n			\"_id\": \"57cd3bb946b01d6a89c63547\",\n			\"ProjectName\": \"vCIO Pro Software\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e97406165\",\n			\"fld_empFirstName\": \"Sunil kumar\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-12T15:10:47.969Z\"\n	}, {\n		\"_id\": \"587781a0bd29fa38bad01e00\",\n		\"ProjectId\": {\n			\"_id\": \"57cd3c5546b01d6a89c6354b\",\n			\"ProjectName\": \"iOrderFoods com Android App\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f4c\",\n			\"fld_empFirstName\": \"Harneet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-12T13:16:16.008Z\"\n	}, {\n		\"_id\": \"58777aa6bd29fa38bad01d90\",\n		\"ProjectId\": {\n			\"_id\": \"57cd3c3446b01d6a89c6354a\",\n			\"ProjectName\": \"iOrderFoods com Web Upgrade\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fbe\",\n			\"fld_empFirstName\": \"Jyoti\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Tripathi\"\n		},\n		\"created\": \"2017-01-12T12:46:30.332Z\"\n	}, {\n		\"_id\": \"58777459bd29fa38bad01d34\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437b9\",\n			\"ProjectName\": \"Operation Trust Deed\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740616c\",\n			\"fld_empFirstName\": \"Surjit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-12T12:19:37.275Z\"\n	}, {\n		\"_id\": \"58776c87bd29fa38bad01d1d\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1c7\",\n			\"ProjectName\": \"iOS and Website Development and Management\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740602e\",\n			\"fld_empFirstName\": \"Ghanshyam\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Dongare\"\n		},\n		\"created\": \"2017-01-12T11:46:15.039Z\"\n	}, {\n		\"_id\": \"58776681bd29fa38bad01d09\",\n		\"ProjectId\": {\n			\"_id\": \"57cff2f2bdc161067039c26f\",\n			\"ProjectName\": \"Marine Management System\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740601c\",\n			\"fld_empFirstName\": \"Kampaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chaudhary\"\n		},\n		\"created\": \"2017-01-12T11:20:33.246Z\"\n	}, {\n		\"_id\": \"58776394bd29fa38bad01cfe\",\n		\"ProjectId\": {\n			\"_id\": \"582075f42816264ccf8391d3\",\n			\"ProjectName\": \"KidsBookOnline\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f9f\",\n			\"fld_empFirstName\": \"Tushar\",\n			\"fld_empMiddleName\": \"Kanti\",\n			\"fld_empLastName\": \"Choudhary\"\n		},\n		\"created\": \"2017-01-12T11:08:04.869Z\"\n	}, {\n		\"_id\": \"5877546cbd29fa38bad01cc3\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437b9\",\n			\"ProjectName\": \"Operation Trust Deed\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f03\",\n			\"fld_empFirstName\": \"Simarjeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-12T10:03:24.606Z\"\n	}, {\n		\"_id\": \"58774d19bd29fa38bad01c8b\",\n		\"ProjectId\": {\n			\"_id\": \"57e21340357b279788427286\",\n			\"ProjectName\": \"Ultimate Ears \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f33\",\n			\"fld_empFirstName\": \"Sachin\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Pundir\"\n		},\n		\"created\": \"2017-01-12T09:32:09.517Z\"\n	}, {\n		\"_id\": \"58772071bd29fa38bad01c31\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c6471690b\",\n			\"ProjectName\": \"DedicatedWordpressResource\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e97406136\",\n			\"fld_empFirstName\": \"Yashveer\",\n			\"fld_empMiddleName\": \"Singh\",\n			\"fld_empLastName\": \"Negi\"\n		},\n		\"created\": \"2017-01-12T06:21:37.537Z\"\n	}, {\n		\"_id\": \"587710a6bd29fa38bad01c1e\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437d2\",\n			\"ProjectName\": \"iAgent App\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740601c\",\n			\"fld_empFirstName\": \"Kampaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chaudhary\"\n		},\n		\"created\": \"2017-01-12T05:14:14.058Z\"\n	}, {\n		\"_id\": \"587633aebd29fa38bad01bab\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884379c\",\n			\"ProjectName\": \"Solarsitedesign PM\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740616c\",\n			\"fld_empFirstName\": \"Surjit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-11T13:31:26.142Z\"\n	}, {\n		\"_id\": \"5876331cbd29fa38bad01ba2\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884381c\",\n			\"ProjectName\": \"3D Graphics Marketplace \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f5f\",\n			\"fld_empFirstName\": \"Ahmad\",\n			\"fld_empMiddleName\": \"Sayeed\",\n			\"fld_empLastName\": \"Zaman\"\n		},\n		\"created\": \"2017-01-11T13:29:00.378Z\"\n	}, {\n		\"_id\": \"587631cabd29fa38bad01b95\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843793\",\n			\"ProjectName\": \"Create An Invocing Website Phase 5\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fd6\",\n			\"fld_empFirstName\": \"Mohamed\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Salman\"\n		},\n		\"created\": \"2017-01-11T13:23:22.560Z\"\n	}, {\n		\"_id\": \"58762a2ebd29fa38bad01b82\",\n		\"ProjectId\": {\n			\"_id\": \"585cc5ba17a36b5eb4cd309e\",\n			\"ProjectName\": \"Kidscamp\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f5f\",\n			\"fld_empFirstName\": \"Ahmad\",\n			\"fld_empMiddleName\": \"Sayeed\",\n			\"fld_empLastName\": \"Zaman\"\n		},\n		\"created\": \"2017-01-11T12:50:54.344Z\"\n	}, {\n		\"_id\": \"58762a1cbd29fa38bad01b7c\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843768\",\n			\"ProjectName\": \"Esources\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f9f\",\n			\"fld_empFirstName\": \"Tushar\",\n			\"fld_empMiddleName\": \"Kanti\",\n			\"fld_empLastName\": \"Choudhary\"\n		},\n		\"created\": \"2017-01-11T12:50:36.270Z\"\n	}, {\n		\"_id\": \"587629ebbd29fa38bad01b77\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884385b\",\n			\"ProjectName\": \"Nomad Aviation phase 2\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f23369f0213bb79b9e4a77\",\n			\"fld_empFirstName\": \"Ubed\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Khan\"\n		},\n		\"created\": \"2017-01-11T12:49:47.446Z\"\n	}, {\n		\"_id\": \"5876245bbd29fa38bad01b4a\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884381c\",\n			\"ProjectName\": \"3D Graphics Marketplace \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f9f\",\n			\"fld_empFirstName\": \"Tushar\",\n			\"fld_empMiddleName\": \"Kanti\",\n			\"fld_empLastName\": \"Choudhary\"\n		},\n		\"created\": \"2017-01-11T12:26:03.891Z\"\n	}, {\n		\"_id\": \"58762040bd29fa38bad01b2d\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e199\",\n			\"ProjectName\": \"ISOX \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e974060a2\",\n			\"fld_empFirstName\": \"Pankaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kumar\"\n		},\n		\"created\": \"2017-01-11T12:08:32.054Z\"\n	}, {\n		\"_id\": \"58761a3dbd29fa38bad01b12\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884379f\",\n			\"ProjectName\": \"API Integration Expert with Drupal Experience - SaaS Program\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f3b\",\n			\"fld_empFirstName\": \"Sarvesh\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Dwivedi\"\n		},\n		\"created\": \"2017-01-11T11:42:53.611Z\"\n	}, {\n		\"_id\": \"58761344865031260323ae0a\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843864\",\n			\"ProjectName\": \"TNP-iOS\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22cbcf0213bb79b9e4a5f\",\n			\"fld_empFirstName\": \"Sumit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Jain\"\n		},\n		\"created\": \"2017-01-11T11:13:08.596Z\"\n	}, {\n		\"_id\": \"58760aa017090a0a3b4f48cd\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c64716901\",\n			\"ProjectName\": \"Bikuh\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f53\",\n			\"fld_empFirstName\": \"Sumeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Bansal\"\n		},\n		\"created\": \"2017-01-11T10:36:16.350Z\"\n	}, {\n		\"_id\": \"587606041ed8c309dd25470e\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c647168fd\",\n			\"ProjectName\": \"Bikuh-Android\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f53\",\n			\"fld_empFirstName\": \"Sumeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Bansal\"\n		},\n		\"created\": \"2017-01-11T10:16:36.375Z\"\n	}, {\n		\"_id\": \"5875faf03acc3574c5537fbd\",\n		\"ProjectId\": {\n			\"_id\": \"579f3190b73203c8d76a4a9e\",\n			\"ProjectName\": \"Fitness App - Android\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e9740607c\",\n			\"fld_empFirstName\": \"Prabhunath\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Yadav\"\n		},\n		\"created\": \"2017-01-11T09:29:20.400Z\"\n	}, {\n		\"_id\": \"5875fa6c3acc3574c5537fac\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c647168fe\",\n			\"ProjectName\": \"Bikuh-iOS\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f53\",\n			\"fld_empFirstName\": \"Sumeet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Bansal\"\n		},\n		\"created\": \"2017-01-11T09:27:08.212Z\"\n	}, {\n		\"_id\": \"5875cea83acc3574c5537ea6\",\n		\"ProjectId\": {\n			\"_id\": \"585243a17c8e82e701ab7a44\",\n			\"ProjectName\": \"washify app - Android\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f4c\",\n			\"fld_empFirstName\": \"Harneet\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-11T06:20:24.958Z\"\n	}, {\n		\"_id\": \"5875cabe3acc3574c5537e91\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1e9\",\n			\"ProjectName\": \"SAAS Accounting Software\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f6a\",\n			\"fld_empFirstName\": \"Ashutosh\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Mishra\"\n		},\n		\"created\": \"2017-01-11T06:03:42.817Z\"\n	}, {\n		\"_id\": \"5874ef243acc3574c5537e30\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437c5\",\n			\"ProjectName\": \"Dealership management software\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e97406090\",\n			\"fld_empFirstName\": \"Harish\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Singh - I\"\n		},\n		\"created\": \"2017-01-10T14:26:44.397Z\"\n	}, {\n		\"_id\": \"5874e6713acc3574c5537e21\",\n		\"ProjectId\": {\n			\"_id\": \"585cc63417a36b5eb4cd309f\",\n			\"ProjectName\": \"Travel Safely Prototype\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22cbcf0213bb79b9e4a5f\",\n			\"fld_empFirstName\": \"Sumit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Jain\"\n		},\n		\"created\": \"2017-01-10T13:49:37.037Z\"\n	}, {\n		\"_id\": \"5874dd1b3acc3574c5537d5c\",\n		\"ProjectId\": {\n			\"_id\": \"585244497c8e82e701ab7a45\",\n			\"ProjectName\": \"washify app - iOS\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22cbcf0213bb79b9e4a5f\",\n			\"fld_empFirstName\": \"Sumit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Jain\"\n		},\n		\"created\": \"2017-01-10T13:09:47.577Z\"\n	}, {\n		\"_id\": \"5874dd193acc3574c5537d55\",\n		\"ProjectId\": {\n			\"_id\": \"585244497c8e82e701ab7a45\",\n			\"ProjectName\": \"washify app - iOS\"\n		},\n		\"UserId\": {\n			\"_id\": \"57f22cbcf0213bb79b9e4a5f\",\n			\"fld_empFirstName\": \"Sumit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Jain\"\n		},\n		\"created\": \"2017-01-10T13:09:45.271Z\"\n	}, {\n		\"_id\": \"5874d60c3acc3574c5537c35\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843796\",\n			\"ProjectName\": \"Control Money Enhancements\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f6a\",\n			\"fld_empFirstName\": \"Ashutosh\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Mishra\"\n		},\n		\"created\": \"2017-01-10T12:39:40.261Z\"\n	}, {\n		\"_id\": \"5874d1e23acc3574c5537b7a\",\n		\"ProjectId\": {\n			\"_id\": \"579f3190b73203c8d76a4a9b\",\n			\"ProjectName\": \"Medical App Platform \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e9740610f\",\n			\"fld_empFirstName\": \"Tejas\",\n			\"fld_empMiddleName\": \"P.\",\n			\"fld_empLastName\": \"Nanavati\"\n		},\n		\"created\": \"2017-01-10T12:21:54.585Z\"\n	}, {\n		\"_id\": \"5874ce913acc3574c5537b6e\",\n		\"ProjectId\": {\n			\"_id\": \"57ee0bfad08a5161584514b2\",\n			\"ProjectName\": \"Development of courier app based on existing wireframes and user stories iOS app\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f6a\",\n			\"fld_empFirstName\": \"Ashutosh\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Mishra\"\n		},\n		\"created\": \"2017-01-10T12:07:45.710Z\"\n	}, {\n		\"_id\": \"5874cd683acc3574c5537b5d\",\n		\"ProjectId\": {\n			\"_id\": \"579f3190b73203c8d76a4a9d\",\n			\"ProjectName\": \"Fitness App - iPhone\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e9740610f\",\n			\"fld_empFirstName\": \"Tejas\",\n			\"fld_empMiddleName\": \"P.\",\n			\"fld_empLastName\": \"Nanavati\"\n		},\n		\"created\": \"2017-01-10T12:02:48.888Z\"\n	}, {\n		\"_id\": \"5874cb2c3acc3574c5537b37\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437e7\",\n			\"ProjectName\": \"Hornstar upkeep \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f3b\",\n			\"fld_empFirstName\": \"Sarvesh\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Dwivedi\"\n		},\n		\"created\": \"2017-01-10T11:53:16.719Z\"\n	}, {\n		\"_id\": \"5874c9af3acc3574c5537b25\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1b3\",\n			\"ProjectName\": \"Depot estimation program\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e9740610f\",\n			\"fld_empFirstName\": \"Tejas\",\n			\"fld_empMiddleName\": \"P.\",\n			\"fld_empLastName\": \"Nanavati\"\n		},\n		\"created\": \"2017-01-10T11:46:55.253Z\"\n	}, {\n		\"_id\": \"5874c57a3acc3574c5537afa\",\n		\"ProjectId\": {\n			\"_id\": \"584930eb5f6dd0c8b27d9bf9\",\n			\"ProjectName\": \"Ecommerce Portal\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405ee6\",\n			\"fld_empFirstName\": \"Manindra\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Shankar\"\n		},\n		\"created\": \"2017-01-10T11:28:58.210Z\"\n	}, {\n		\"_id\": \"5874c4e43acc3574c5537aee\",\n		\"ProjectId\": {\n			\"_id\": \"582075372816264ccf8391ce\",\n			\"ProjectName\": \"Collaborative web platform\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405ee6\",\n			\"fld_empFirstName\": \"Manindra\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Shankar\"\n		},\n		\"created\": \"2017-01-10T11:26:28.071Z\"\n	}, {\n		\"_id\": \"5874b06ada32da033876fc8a\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437cb\",\n			\"ProjectName\": \"VP Test Internal\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e97406099\",\n			\"fld_empFirstName\": \"Gurpinder\",\n			\"fld_empMiddleName\": \"Pal\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-10T09:59:06.196Z\"\n	}, {\n		\"_id\": \"5874b032da32da033876fc88\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437cb\",\n			\"ProjectName\": \"VP Test Internal\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e97406099\",\n			\"fld_empFirstName\": \"Gurpinder\",\n			\"fld_empMiddleName\": \"Pal\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-10T09:58:10.722Z\"\n	}, {\n		\"_id\": \"5874abfd6c70093b347bb856\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884377c\",\n			\"ProjectName\": \"OHS - Web App\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97406013\",\n			\"fld_empFirstName\": \"Shashi\",\n			\"fld_empMiddleName\": \"Bhushan\",\n			\"fld_empLastName\": \"- I\"\n		},\n		\"created\": \"2017-01-10T09:40:13.811Z\"\n	}, {\n		\"_id\": \"5874a9cb6c70093b347bb827\",\n		\"ProjectId\": {\n			\"_id\": \"585bc515187334931ae828be\",\n			\"ProjectName\": \"i need a programmer to help me create an online reporting \"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405ef5\",\n			\"fld_empFirstName\": \"Vivek\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-10T09:30:51.296Z\"\n	}, {\n		\"_id\": \"587483796c70093b347bb77f\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437b2\",\n			\"ProjectName\": \"Foomanchew Gen 2 iPhone\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97406005\",\n			\"fld_empFirstName\": \"Amit\",\n			\"fld_empMiddleName\": \"Kumar\",\n			\"fld_empLastName\": \"Shukla\"\n		},\n		\"created\": \"2017-01-10T06:47:21.591Z\"\n	}, {\n		\"_id\": \"58746da56c70093b347bb65f\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437d3\",\n			\"ProjectName\": \"Open source - Fairwater\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f3d\",\n			\"fld_empFirstName\": \"Ankush\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sharma\"\n		},\n		\"created\": \"2017-01-10T05:14:13.338Z\"\n	}, {\n		\"_id\": \"587467ff6c70093b347bb5fa\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437b3\",\n			\"ProjectName\": \"Foomanchew Gen 2 Android\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e97406078\",\n			\"fld_empFirstName\": \"Navpreet\",\n			\"fld_empMiddleName\": \"Singh\",\n			\"fld_empLastName\": \"Gogana\"\n		},\n		\"created\": \"2017-01-10T04:50:07.191Z\"\n	}, {\n		\"_id\": \"58745b7e6c70093b347bb558\",\n		\"ProjectId\": {\n			\"_id\": \"58738ec2b2df9e18e20d676b\",\n			\"ProjectName\": \"Shout-Admin\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f3b\",\n			\"fld_empFirstName\": \"Sarvesh\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Dwivedi\"\n		},\n		\"created\": \"2017-01-10T03:56:46.521Z\"\n	}, {\n		\"_id\": \"58739d8f6c70093b347bb516\",\n		\"ProjectId\": {\n			\"_id\": \"57e9f646d08a5161584514a6\",\n			\"ProjectName\": \"The Dish\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f0f\",\n			\"fld_empFirstName\": \"Ajay\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kumar\"\n		},\n		\"created\": \"2017-01-09T14:26:23.611Z\"\n	}, {\n		\"_id\": \"587395d76c70093b347bb4c9\",\n		\"ProjectId\": {\n			\"_id\": \"582075372816264ccf8391ce\",\n			\"ProjectName\": \"Collaborative web platform\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e97405fab\",\n			\"fld_empFirstName\": \"Manoj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kumar\"\n		},\n		\"created\": \"2017-01-09T13:53:27.891Z\"\n	}, {\n		\"_id\": \"587395746c70093b347bb4c3\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843769\",\n			\"ProjectName\": \"American Care\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f47\",\n			\"fld_empFirstName\": \"Swapan\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Mohan\"\n		},\n		\"created\": \"2017-01-09T13:51:48.531Z\"\n	}, {\n		\"_id\": \"587395146c70093b347bb4ab\",\n		\"ProjectId\": {\n			\"_id\": \"57cff2f2bdc161067039c26f\",\n			\"ProjectName\": \"Marine Management System\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740601c\",\n			\"fld_empFirstName\": \"Kampaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chaudhary\"\n		},\n		\"created\": \"2017-01-09T13:50:12.169Z\"\n	}, {\n		\"_id\": \"5873940b6c70093b347bb47b\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437cb\",\n			\"ProjectName\": \"VP Test Internal\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e97406099\",\n			\"fld_empFirstName\": \"Gurpinder\",\n			\"fld_empMiddleName\": \"Pal\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-09T13:45:47.768Z\"\n	}, {\n		\"_id\": \"587392bc6c70093b347bb45e\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b588437cb\",\n			\"ProjectName\": \"VP Test Internal\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bf539631755e97406099\",\n			\"fld_empFirstName\": \"Gurpinder\",\n			\"fld_empMiddleName\": \"Pal\",\n			\"fld_empLastName\": \"Singh\"\n		},\n		\"created\": \"2017-01-09T13:40:12.725Z\"\n	}, {\n		\"_id\": \"5873929b6c70093b347bb455\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b58843791\",\n			\"ProjectName\": \"Razor MVC HTML5 Project\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bdb29631755e9740601c\",\n			\"fld_empFirstName\": \"Kampaj\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Chaudhary\"\n		},\n		\"created\": \"2017-01-09T13:39:39.706Z\"\n	}, {\n		\"_id\": \"58738c116c70093b347bb3d5\",\n		\"ProjectId\": {\n			\"_id\": \"5836da98333f033c647168fc\",\n			\"ProjectName\": \"FullStackDeveloperforaServiceBasedRetailer\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f6a\",\n			\"fld_empFirstName\": \"Ashutosh\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Mishra\"\n		},\n		\"created\": \"2017-01-09T13:11:45.450Z\"\n	}, {\n		\"_id\": \"587389d76c70093b347bb3a1\",\n		\"ProjectId\": {\n			\"_id\": \"572c1d31143f753b5884378c\",\n			\"ProjectName\": \"KP Caseconnect Maintenance and Support\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bcc09631755e97405f63\",\n			\"fld_empFirstName\": \"Mohit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Sah\"\n		},\n		\"created\": \"2017-01-09T13:02:15.839Z\"\n	}, {\n		\"_id\": \"587389996c70093b347bb396\",\n		\"ProjectId\": {\n			\"_id\": \"579f17f96f22d5cdbfb1e1a3\",\n			\"ProjectName\": \"BH App - MVP\"\n		},\n		\"UserId\": {\n			\"_id\": \"5732bfaa9631755e9740616c\",\n			\"fld_empFirstName\": \"Surjit\",\n			\"fld_empMiddleName\": \"\",\n			\"fld_empLastName\": \"Kaur\"\n		},\n		\"created\": \"2017-01-09T13:01:13.831Z\"\n	}]\n}",
+			"settings":
+			{
+				"buffer_size": 49056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Hello ,This is to inform you that on account of Republic Day (https://en.wikipedia.org/wiki/Republic_Day_(India)), our office will remain closed on Thursday, January 26, 2017. We will resume working from Friday, January 27, 2017.Kindly let us know about the work priorities, so that we can plan work accordingly.",
+			"settings":
+			{
+				"buffer_size": 312,
+				"line_ending": "Unix",
+				"name": "Hello ,This is to inform you that on account of Re"
+			}
+		},
+		{
+			"file": "app/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 900,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "install pa",
+		"selected_items":
+		[
+			[
+				"install pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/nishantk/Official/Projects/angular2/AngularPlayground/angular2",
+		"/home/nishantk/Official/Projects/angular2/AngularPlayground/angular2/app"
+	],
+	"file_history":
+	[
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/delete_user_activity.html",
+		"/home/nishantk/Official/Projects/rth/validic/npm-debug.log",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/TODO.txt",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/db.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/TargetWeightCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/ValidicApiEndPoint.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/TypeUpdateCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/ValidicsaveCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/routes/index.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/DailyWeightCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/scripts/intra_sync_script.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/AuthCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/common_modules/dbFunctions.js",
+		"/home/nishantk/Official/Projects/rth/validic/scripts/intra_sync_script.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/UserActivityCtrl.js",
+		"/home/nishantk/Desktop/ReactJs/HomeConnect/user.json",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/app.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/cron.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/UserInitCtrl.js",
+		"/home/nishantk/Official/S4730006-Labornet/Development/Client Communication/Note.txt",
+		"/home/nishantk/Official/S4730006-Labornet/Development/Client Inputs/Note.txt",
+		"/home/nishantk/Official/S4730006-Labornet/Development/Unit Testing/Note.txt",
+		"/home/nishantk/Official/S4730006-Labornet/Project Planning/Project Schedule/Note.txt",
+		"/home/nishantk/Official/S4730006-Labornet/Note.txt",
+		"/home/nishantk/Official/S4730006-Labornet/Development/Acceptance sheets/Note",
+		"/home/nishantk/Desktop/ReactJs/HomeConnect/web.config",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/Rinkal/Rinkal.txt",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/krishan/payment.js",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/AC/New Text Document.txt",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/MMS/New Text Document.txt",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/bin/www",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/p/service-panel-modal.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/common_modules/validicFunctions.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/dbQueryCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/validicCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/scripts/package.json",
+		"/home/nishantk/Official/Projects/rth/validic/query.txt",
+		"/home/nishantk/Official/Projects/angular2/AngularPlayground/angular2/app/login.ts",
+		"/home/nishantk/Official/Projects/angular2/AngularPlayground/angular2/app/heroes.component.ts",
+		"/home/nishantk/Official/Projects/angular2/AngularPlayground/angular2/app/hero.service.ts",
+		"/home/nishantk/Official/Projects/angular2/AngularPlayground/angular2/app/app.component.js",
+		"/home/nishantk/Official/Projects/angular2/AngularPlayground/angular2/app/app.component.ts",
+		"/home/nishantk/Official/Projects/angular2/AngularPlayground/angular2/app/auth.guard.js",
+		"/home/nishantk/Desktop/Credentials.txt",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/RTH/Req.json",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/intra_sync_script.js",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/Deepika/rrrln.txt",
+		"/home/nishantk/Official/Projects/angular2/AngularPlayground/angular2/app/hero-detail.component.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/script.js",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/Echolimo/connections.js",
+		"/home/nishantk/Official/Projects/work/​timeout.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/view_activity.html",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/view_weights.html",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/utils/email.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/.gitignore",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/view_activity_timer.html",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/TargetMetMinCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/DevicePriorityCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/controllers/AllowedDevicesCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/live/Validic_Middleware/controllers/DailyWeightCtrl.js",
+		"/home/nishantk/Desktop/bundle.js",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/piyush/bundle.js",
+		"/home/nishantk/Desktop/TODO.txt",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/bin/www",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/routes/posts.js",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/routes/index.js",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/routes/users.js",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/app.js",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/views/error.html",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/public/src/components/SignInForm.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/node_modules/mysql/Readme.md",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/gagan/WorkBench.js",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/New Text Document.txt",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/ddd/vpn.txt",
+		"/var/www/html/index.html",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/Holiday Notification/Holiday Notification.txt",
+		"/home/nishantk/Desktop/nishant-key-pair.pem",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/.env",
+		"/home/nishantk/Official/Projects/react/react-redux-blog/.gitignore",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/update_activity.html",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/checkConnection.js",
+		"/home/nishantk/Official/Projects/theme_crm/minnotive/readme.txt",
+		"/home/nishantk/Official/Projects/theme_crm/minnotive/admin/angular/dist/compiled/index.html",
+		"/home/nishantk/Official/Projects/theme_crm/minnotive/admin/angular/dist/uncompiled/scripts/app.d7ca82ad.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/npm-debug.log",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/nohup.out",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/Nishant/new-opio/public/javascripts/app.js",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/Nishant/new-opio/public/modules/dashboard/controller.js",
+		"/home/nishantk/dumps/Sources20161209.sql",
+		"/home/nishantk/Official/ajayAngulartask/new/Project/index.html",
+		"/home/nishantk/Desktop/validicResponse.txt",
+		"/home/nishantk/dumps/sources.sql",
+		"/home/nishantk/dumps/Dump20161208.sql",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/laxman/AllowedDevicesCtrl.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/common_modules/unitConversion.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/sync_device.html",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/unsync_device.html",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/allowed_devices.html",
+		"/var/www/html/ajayAngulartask/index.html",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/views/documentation.ejs",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/RTH/devices.json",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/RTH/validic.js",
+		"/home/nishantk/Desktop/radiusSearch.txt",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/common_modules/dateConversion.js",
+		"/home/nishantk/dumps/daily/warehouse_daily_metmins.sql",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/RTH/codebase/db.js",
+		"/home/nishantk/Official/Projects/MVP/db.js",
+		"/home/nishantk/Official/Projects/MVP/app/models/adminlogins/adminlogin.js",
+		"/home/nishantk/Official/ajayAngulartask/new/Project/script.js",
+		"/var/www/html/ajayAngulartask/demo.js",
+		"/var/www/html/ajayAngulartask/Scripts/bootstrap.js",
+		"/var/www/html/ajayAngulartask/views/add.html",
+		"/home/nishantk/Official/ajayAngulartask/index.html",
+		"/home/nishantk/Official/ajayAngulartask/demo.js",
+		"/home/nishantk/Official/Projects/MVP/public/javascripts/constants.js",
+		"/home/nishantk/Downloads/angular-chart.js-master/dist/angular-chart.js",
+		"/home/nishantk/Downloads/angular-chart.js-master/package.json",
+		"/home/nishantk/Official/Projects/MVP/app.js",
+		"/home/nishantk/Official/Projects/MVP/app/app.js",
+		"/var/www/html/ScrollMagic/scrollmagic/uncompressed/ScrollMagic.js",
+		"/var/www/html/ScrollMagic/examples/basic/class_toggles.html",
+		"/var/www/html/ScrollMagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/Akanksha/Echolimo/assets/robots.txt",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/Akanksha/app.js",
+		"/run/user/1001/gvfs/smb-share:server=172.24.24.24,share=sdei_shared/Akanksha/Echolimo/tasks/pipeline.js",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/init_user.html",
+		"/home/nishantk/Jmeter/apache-jmeter-3.0/README",
+		"/home/nishantk/Official/Projects/rth/validic/codebase/public/views/update_weights.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/nishantk/Official/Projects/rth/validic/codebase/controllers,/home/nishantk/Official/Projects/rth/validic/codebase/common_modules",
+			"/home/nishantk/Official/Projects/rth/validic/codebase/controllers",
+			"/home/nishantk/Official/Projects/rth/validic",
+			"/home/nishantk/Official/Projects/react",
+			"/home/nishantk/Official/Projects/rth/validic/codebase/controllers,/home/nishantk/Official/Projects/rth/validic/codebase/common_modules",
+			"/home/nishantk/Official/Projects/rth/validic/codebase/controllers",
+			"/home/nishantk/Official/Projects/rth/validic/codebase",
+			"/home/nishantk/Official/Projects/MVP",
+			"/home/nishantk/Official/Projects/MVP/app",
+			"/home/nishantk/Official/Projects/rth/validic/codebase/",
+			"/home/nishantk/Official/Projects/rth/validic/codebase/controllers",
+			"/home/nishantk/Desktop/Angular2DifferentExamples/angular2/node_modules/angular2-jwt",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Kampaj",
+			"nishant",
+			"rajat",
+			"parul",
+			"start_date",
+			"view_activity_time",
+			"conne",
+			"=====",
+			"removeOldWeightDb",
+			">>>",
+			"insert",
+			"inserted",
+			"validation",
+			"validation failed",
+			"587ca155b61822c6705a3320",
+			"initiateUpdateTargetMetMins",
+			"setmysqlinsertquery",
+			"â€¢",
+			"checkTargetWeightAndActivity",
+			"createValidicUser",
+			"generateOrUpdateToken",
+			"checkAppId",
+			"updateact",
+			"checkTargetWeightAndActivity",
+			"query",
+			"console",
+			"updateRedundantData",
+			"checkDataExistDailyMet",
+			"insertMinuteMetDb",
+			"insertActivityDb",
+			"insert",
+			"updateRedundantData",
+			"removeRedundantJulianData",
+			"updateRedundantData",
+			"calculationOrder",
+			"insertActivityDb",
+			"updateRedundantData",
+			"insertActivityDb",
+			"getOverallUserActivity",
+			"viewact",
+			"updateRedundantData",
+			"updateredu",
+			"update",
+			"viewActi",
+			"middleware_activity_call",
+			"BASE_URL_MIDDLEWARE",
+			"middleware_activity_call",
+			"DayDeviceWiseDailyMetmins",
+			"processUserRequest",
+			"middleware_activity_call",
+			"processUserRequest",
+			"insertWeightDb",
+			"tempArr[0]",
+			"fetchActivityMinuteMetDb",
+			"activitytim",
+			"activi",
+			"time",
+			"timer",
+			"insertActivityDb",
+			"view",
+			"console",
+			"initiateProcess",
+			"app",
+			"express",
+			"commanfunction",
+			"validicObj",
+			"submitDataToQuealth",
+			"processUserRequest",
+			"DayDeviceWiseDailyMetmins",
+			"processUserRequest",
+			"initiateProcess",
+			"submitDataToQuealth",
+			"req.body",
+			"DB RESPONSE IS",
+			"processUserRequest",
+			"initiateProcess",
+			"submitDataToQuealth",
+			"insertActivityDb",
+			"fetchHumanData",
+			"updateRedundantData",
+			"fetchHumanData",
+			"updateRedundantData",
+			"queryArray",
+			"upsertDailyMetMin",
+			"removeConflictData",
+			"insertActivityDb",
+			"getOverallUserActivity",
+			"fetchActivityDb",
+			"viewActi",
+			"getSourceId",
+			"select id from source",
+			"select id from sources WHERE source_na",
+			" human select id from sources WHERE source_na",
+			"getOverallUserActivity",
+			"console",
+			"fetchHumanData",
+			"fetchhuman",
+			"typeUpdateOnUpdate",
+			"processUserRequest",
+			"middleware_init_user",
+			"typeUpdateOnUpdate",
+			"initiateProcess",
+			"processUserRequest",
+			"checkActivityData",
+			"processUserRequest",
+			"DayDeviceWiseDailyMetmins",
+			"processUserRequest",
+			"DayDeviceWiseDailyMetmins",
+			"middleware_activity_call",
+			"metArray",
+			"fn_GregorianToJulian",
+			"DayWiseDailyMetmins",
+			"insertActivityDb",
+			"fetchActivityDb",
+			"view",
+			"processUserRequest",
+			"processRequest",
+			"processUserRequest",
+			"middleware_activity_call",
+			"heade",
+			"middleware_activity_call",
+			"middleware_init_user",
+			"post",
+			"quealth_url",
+			"request",
+			"calculateUserPriority",
+			"setUserPriority",
+			"daily weight is "
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"body"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/nishantk/Official/Projects/rth/validic/codebase/views/documentation.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1082,
+								1082
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 884.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1121,
+								1121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 520.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Hello ,This is to inform you that on account of Re",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/app.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								739,
+								739
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": ".sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"hero-",
+				"angular2/app/hero-add.component.ts"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

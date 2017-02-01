@@ -14,6 +14,7 @@ var router_1 = require('@angular/router');
 var http_1 = require('@angular/http');
 var Observable_1 = require('rxjs/Observable');
 var angular2_jwt_1 = require('angular2-jwt');
+var global_1 = require('./global');
 // constructor(public router: Router, public http: Http,) {
 //    this.jwt = localStorage.getItem('id_token');
 //    this.decodedJwt = this.jwt && window.jwt_decode(this.jwt);
@@ -24,7 +25,7 @@ var HeroService = (function () {
         this.http = http;
         this.authHttp = authHttp;
         this.router = router;
-        this.heroesUrl = 'http://localhost:1337/product/';
+        this.heroesUrl = global_1.GlobalVariable.BASE_API_URL + 'product/';
         this.jwt = localStorage.getItem('id_token');
         console.log("JWT TOKEN IS ", this.jwt, window /*, JwtHelper.decodeToken(this.jwt)*/);
         // this.decodedJwt = this.jwt && window.jwt_decode(this.jwt);

@@ -12,19 +12,25 @@ var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var http_1 = require('@angular/http');
 var headers_1 = require('./headers');
+var global_1 = require('./global');
+var app_component_1 = require('./app.component');
 // const styles   = require('./login.css');
 // const template = require('./login.html');
 var Login = (function () {
-    function Login(router, http) {
+    function Login(appcomp, router, http) {
+        this.appcomp = appcomp;
         this.router = router;
         this.http = http;
+        this.formData = {};
     }
     Login.prototype.login = function (event, username, password) {
         var _this = this;
         event.preventDefault();
-        var body = JSON.stringify({ username: username, password: password });
-        this.http.post('http://localhost:1337/login', body, { headers: headers_1.contentHeaders })
+        var body = this.formData;
+        console.log(" formData ", this.formData, "THIS ", this);
+        this.http.post(global_1.GlobalVariable.BASE_API_URL + 'login', body, { headers: headers_1.contentHeaders })
             .subscribe(function (response) {
+            _this.appcomp.menuDisplay = true;
             localStorage.setItem('id_token', response.json().id_token);
             _this.router.navigate(['dashboard']);
         }, function (error) {
@@ -39,7 +45,7 @@ var Login = (function () {
             templateUrl: 'login.html',
             styleUrls: ['login.css', 'bootstrap.min.css']
         }), 
-        __metadata('design:paramtypes', [router_1.Router, http_1.Http])
+        __metadata('design:paramtypes', [app_component_1.AppComponent, router_1.Router, http_1.Http])
     ], Login);
     return Login;
 }());

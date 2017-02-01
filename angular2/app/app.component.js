@@ -15,16 +15,20 @@ var AppComponent = (function () {
     function AppComponent(router) {
         this.router = router;
         this.title = 'Playground :: Angular2';
-        this.menuDisplay = true;
+        this.menuDisplay = false;
+        if (localStorage.getItem('id_token')) {
+            this.menuDisplay = true;
+        }
     }
     AppComponent.prototype.logout = function () {
         localStorage.removeItem('id_token');
+        this.menuDisplay = false;
         this.router.navigate(['login']);
     };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n    <h1>{{title}}</h1>\n    <nav  *ngIf=\"true\" >\n      <a routerLink=\"/dashboard\" routerLinkActive=\"active\">Dashboard</a>\n      <a routerLink=\"/heroes\" routerLinkActive=\"active\">Heroes</a>\n      <a routerLink=\"/add\" routerLinkActive=\"active\">Add New</a> \n      <a  routerLinkActive=\"active\" (click)=\"logout()\" > Logout </a> \n    </nav>\n    <router-outlet ></router-outlet>\n  ",
+            template: "\n    <h1>{{title}}</h1>\n    <nav  *ngIf=\"menuDisplay\" >\n      <a routerLink=\"/dashboard\" routerLinkActive=\"active\">Dashboard</a>\n      <a routerLink=\"/heroes\" routerLinkActive=\"active\">Heroes</a>\n      <a routerLink=\"/add\" routerLinkActive=\"active\">Add New</a> \n      <a  routerLinkActive=\"active\" (click)=\"logout()\" > Logout </a> \n    </nav>\n    <router-outlet ></router-outlet>\n  ",
             styleUrls: ['app/bootstrap.min.css', 'app/app.component.css'],
         }), 
         __metadata('design:paramtypes', [router_1.Router])

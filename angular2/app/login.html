@@ -17,13 +17,48 @@
 
 <div  id="login-box" class="form-box ng-scope">
             <div class="header">Sign In</div>
-            <form id="login_form" role="form" (submit)="login($event, username.value, password.value)" name="login_form" class="">
+            <form id="login_form" role="form" (submit)="login($event)" name="login_form" class="">
                 <div class="body bg-gray">
                     <div  class="form-group">
-                    <input type="text" #username class="form-control" id="username" placeholder="Username">
+                   
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Username" #username="ngModel" [(ngModel)]="formData.username" required minlength="4" maxlength="24" >
+                   
+
+
+                   <div *ngIf="username.errors && (username.dirty || username.touched)"
+                         class="alert alert-danger">
+                        <div [hidden]="!username.errors.required">
+                          username is required
+                        </div>
+                        <div [hidden]="!username.errors.minlength">
+                          username must be at least 4 characters long.
+                        </div>
+                        <div [hidden]="!username.errors.maxlength">
+                          Name cannot be more than 24 characters long.
+                        </div>
+                    </div>                   
+
+
+
+
                     </div>
                     <div class="form-group">
-                          <input type="password" #password class="form-control" id="password" placeholder="Password">
+                          <input type="password" name="password" #password="ngModel" [(ngModel)]="formData.password" class="form-control" id="password" placeholder="Password"  required minlength="4" maxlength="24"   >
+
+
+                   <div *ngIf="password.errors && (password.dirty || password.touched)"
+                         class="alert alert-danger">
+                        <div [hidden]="!password.errors.required">
+                          password is required
+                        </div>
+                        <div [hidden]="!password.errors.minlength">
+                          password must be at least 4 characters long.
+                        </div>
+                        <div [hidden]="!password.errors.maxlength">
+                          Name cannot be more than 24 characters long.
+                        </div>
+                    </div>         
+
                     </div>          
 
                 </div>
