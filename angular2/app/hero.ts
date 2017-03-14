@@ -1,8 +1,9 @@
 export class Hero {
   id: any;
-  name: string;
-  description:string;
-  product_size: string ; 
+  firstName: string;
+  lastName:string;
+  doj: string ; 
+  locationID: string ; 
 }
 
 

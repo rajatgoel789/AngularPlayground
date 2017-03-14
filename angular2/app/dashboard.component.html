@@ -1,11 +1,50 @@
-<h3>Top Products</h3>
+<!--<h3>Employee List</h3>
 <div class="grid grid-pad">
-  <div *ngFor="let hero of heroes" (click)="gotoDetail(hero)" class="col-1-4">
-    <div class="module hero">
-      <h4>{{hero.name}}</h4>
-    </div>
+	<div style="float:left">Id</div><div style="float:left">Employee Name</div><div style="float:left">Date of Joining</div><div style="float:left">Location Id</div>		
+  	<div *ngFor="let hero of heroes" (click)="gotoDetail(hero)" class="col-1-4">
+    	<div style="float:left">
+      		{{hero.id}}
+    	</div>
+		<div style="float:left">
+      		{{hero.firstName}} {{hero.lastName}}
+    	</div>
+		<div style="float:left">
+      		{{hero.doj}}
+    	</div>
+		<div style="float:left">
+      		{{hero.locationId}}
+    	</div>
+  	</div>
+</div>-->
+
+<div class="container">
+  <h2>Employee List</h2>                                                                                     
+  <div class="table-responsive">          
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>DOJ</th>
+        <th>Location ID</th>
+		<th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let hero of heroes" (click)="gotoDetail(hero)">
+        <td>{{hero.id}}</td>
+        <td>{{hero.firstName}}</td>
+        <td>{{hero.lastName}}</td>
+        <td>{{hero.doj}}</td>
+        <td>{{hero.locationId}}</td>
+		<td><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;<i class="fa fa-trash" aria-hidden="true"></i></td>
+      </tr>
+    </tbody>
+  </table>
   </div>
 </div>
+
 
 
 <!-- 

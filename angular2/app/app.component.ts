@@ -10,8 +10,7 @@ import { Routes, Router ,RouterModule } from '@angular/router';
     <h1>{{title}}</h1>
     <nav  *ngIf="menuDisplay" >
       <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-      <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
-      <a routerLink="/add" routerLinkActive="active">Add New</a> 
+      <a routerLink="/add" routerLinkActive="active">Add Employee</a> 
       <a  routerLinkActive="active" (click)="logout()" > Logout </a> 
     </nav>
     <router-outlet ></router-outlet>

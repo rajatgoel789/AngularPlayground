@@ -1,16 +1,11 @@
 import { Hero } from './hero';
 
 export var HEROES: Hero[] = [
-  {id: 11, name: 'Mr. Nice',description:"" , product_size:"" },
-  {id: 12, name: 'Narco',description:"" , product_size:""},
-  {id: 13, name: 'Bombasto',description:"" , product_size:""},
-  {id: 14, name: 'Celeritas',description:"" , product_size:""},
-  {id: 15, name: 'Magneta',description:"" , product_size:""},
-  {id: 16, name: 'RubberMan',description:"" , product_size:""},
-  {id: 17, name: 'Dynama',description:"" , product_size:""},
-  {id: 18, name: 'Dr IQ',description:"" , product_size:""},
-  {id: 19, name: 'Magma',description:"" , product_size:""},
-  {id: 20, name: 'Tornado',description:"" , product_size:""}
+  {id: 11, firstName: 'Vaibhav',lastName:"Jain" , doj:"24-01-2017",locationId : "ABC" },
+  {id: 12, firstName: 'Sameer',lastName:"Aswal" , doj:"24-08-2017" ,locationId : "CDE"},
+  {id: 13, firstName: 'Ajay',lastName:"Sharma" , doj:"24-09-2017" ,locationId : "EFG"},
+  {id: 14, firstName: 'Anil',lastName:"Passi" , doj:"23-03-2017" ,locationId : "GHI"},
+  {id: 15, firstName: 'Anjali',lastName:"Passi" , doj:"27-11-2017" ,locationId : "IJK"}
 ];
 
 

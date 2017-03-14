@@ -21,17 +21,14 @@ module.exports = {
 		if(!username || !password){
 			return res.status(400).json({error:"Invalid parametes"})
 		}
-		User.find({"username":username , "password": password},{username:1})
-		.exec(function (error, user) {
-			console.log(error , user) ; 	
-			 if(error){ return res.status(400).json({error:error}) }
-			 if(!user.length){
-			 	return res.status(400).json({error:"Invalid Username/Password"})
-			 }
-			 // delete  user[0].password;
+		if(username=='admin' && password=='12345678'){
+			var user =[];
+			user[0] ={};
+			user[0].username = 'admin';
+			user[0].password = '12345678'
 			res.json({id_token: createToken(user[0]) });
-		
-		})	
-
+		}else{
+			return res.status(400).json({error:"Invalid Username/Password"})
+		}
 	}
 };
