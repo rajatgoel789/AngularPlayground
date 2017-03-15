@@ -34,7 +34,7 @@ var HeroDetailComponent = (function () {
             .subscribe(function (heroes) {
             // TODO navigate to list page 
             // this.heroes = heroes ; console.log("Heroes " , heroes );
-            _this.router.navigate(['heroes']);
+            _this.router.navigate(['dashboard']);
         }, function (error) { return _this.errorMessage = error; });
     };
     HeroDetailComponent.prototype.goBack = function () {

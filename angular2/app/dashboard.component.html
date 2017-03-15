@@ -16,29 +16,42 @@
     	</div>
   	</div>
 </div>-->
-
+<style>
+  #myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+  
+</style>
 <div class="container">
   <h2>Employee List</h2>                                                                                     
-  <div class="table-responsive">          
+  <div class="table-responsive">
+  <input type="text" id="myInput"  placeholder="Search for Name" (keyup)="filterData(this.value)" title="Type in a name">
   <table class="table table-hover table-bordered">
     <thead>
       <tr>
         <th>#</th>
-        <th>Firstname</th>
-        <th>Lastname</th>
+        <th style="cursor: pointer" (click)="getSorted('firstName')" >Firstname <i class="{{sortFN}}" aria-hidden="true"></i></th>
+        <th style="cursor: pointer" (click)="getSorted('lastName')">Lastname <i class="{{sortLN}}" aria-hidden="true"></i></th>
         <th>DOJ</th>
         <th>Location ID</th>
 		<th>Action</th>
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let hero of heroes" (click)="gotoDetail(hero)">
+      <tr *ngFor="let hero of heroes" >
         <td>{{hero.id}}</td>
         <td>{{hero.firstName}}</td>
         <td>{{hero.lastName}}</td>
         <td>{{hero.doj}}</td>
         <td>{{hero.locationId}}</td>
-		<td><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;<i class="fa fa-trash" aria-hidden="true"></i></td>
+		<td><i class="fa fa-pencil" aria-hidden="true" style="cursor:pointer;" (click)="gotoDetail(hero)"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i style="cursor:pointer;" class="fa fa-trash" aria-hidden="true" (click)="deleteEmployee(hero.id)"></i></td>
       </tr>
     </tbody>
   </table>

@@ -28,3 +28,1008 @@ npm ERR! There is likely additional logging output above.
 
 npm ERR! Please include the following file with any support request:
 npm ERR!     /home/ubuntu/AngularPlayground/angular2/npm-debug.log
+
+> angular2-quickstart@1.0.0 start /home/ubuntu/AngularPlayground/angular2
+> tsc && concurrently "npm run tsc:w" "npm run lite" 
+
+[0] 
+[0] > angular2-quickstart@1.0.0 tsc:w /home/ubuntu/AngularPlayground/angular2
+[0] > tsc -w
+[0] 
+[1] 
+[1] > angular2-quickstart@1.0.0 lite /home/ubuntu/AngularPlayground/angular2
+[1] > lite-server
+[1] 
+[1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+[1] ** browser-sync config **
+[1] { injectChanges: false,
+[1]   files: [ './**/*.{html,htm,css,js}' ],
+[1]   watchOptions: { ignored: 'node_modules' },
+[1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+[1] [BS] Access URLs:
+[1]  -------------------------------------
+[1]        Local: http://localhost:3000
+[1]     External: http://172.31.30.68:3000
+[1]  -------------------------------------
+[1]           UI: http://localhost:3001
+[1]  UI External: http://172.31.30.68:3001
+[1]  -------------------------------------
+[1] [BS] Serving files from: ./
+[1] [BS] Watching files...
+[1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[0] 4:14:52 PM - Compilation complete. Watching for file changes.
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [90m17.03.14 16:14:52[0m [36m304[0m [35mGET[0m [90m/index.html[0m
+[1] [90m17.03.14 16:14:52[0m [32m200[0m [35mGET[0m [90m/index.html[0m
+[1] [90m17.03.14 16:14:52[0m [36m304[0m [35mGET[0m [90m/systemjs.config.js[0m
+[1] [90m17.03.14 16:14:52[0m [36m304[0m [35mGET[0m [90m/node_modules/reflect-metadata/Reflect.js[0m
+[1] [90m17.03.14 16:14:52[0m [36m304[0m [35mGET[0m [90m/node_modules/zone.js/dist/zone.js[0m
+[1] [90m17.03.14 16:14:52[0m [36m304[0m [35mGET[0m [90m/node_modules/systemjs/dist/system.src.js[0m
+[1] [90m17.03.14 16:14:52[0m [32m200[0m [35mGET[0m [90m/index.html[0m
+[1] [90m17.03.14 16:14:53[0m [32m200[0m [35mGET[0m [90m/app/main.js[0m
+[1] [90m17.03.14 16:14:53[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js[0m
+[1] [90m17.03.14 16:14:53[0m [32m200[0m [35mGET[0m [90m/app/app.module.js[0m
+[1] [90m17.03.14 16:14:53[0m [32m200[0m [35mGET[0m [90m/systemjs.config.js[0m
+[1] [90m17.03.14 16:14:54[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/compiler/bundles/compiler.umd.js[0m
+[1] [90m17.03.14 16:14:54[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/core/bundles/core.umd.js[0m
+[1] [90m17.03.14 16:14:54[0m [32m200[0m [35mGET[0m [90m/node_modules/zone.js/dist/zone.js[0m
+[1] [90m17.03.14 16:14:54[0m [32m200[0m [35mGET[0m [90m/node_modules/reflect-metadata/Reflect.js[0m
+[1] [90m17.03.14 16:14:54[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js[0m
+[1] [90m17.03.14 16:14:54[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/http/bundles/http.umd.js[0m
+[1] [90m17.03.14 16:14:54[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/forms/bundles/forms.umd.js[0m
+[1] [90m17.03.14 16:14:54[0m [36m304[0m [35mGET[0m [90m/node_modules/angular2-jwt/angular2-jwt.js[0m
+[1] [90m17.03.14 16:14:54[0m [32m200[0m [35mGET[0m [90m/app/app.component.js[0m
+[1] [90m17.03.14 16:14:54[0m [32m200[0m [35mGET[0m [90m/app/dashboard.component.js[0m
+[1] [90m17.03.14 16:14:54[0m [32m200[0m [35mGET[0m [90m/app/hero-detail.component.js[0m
+[1] [90m17.03.14 16:14:54[0m [32m200[0m [35mGET[0m [90m/app/hero-add.component.js[0m
+[1] [90m17.03.14 16:14:54[0m [32m200[0m [35mGET[0m [90m/app/heroes.component.js[0m
+[1] [90m17.03.14 16:14:54[0m [32m200[0m [35mGET[0m [90m/app/hero.service.js[0m
+[1] [90m17.03.14 16:14:54[0m [32m200[0m [35mGET[0m [90m/app/app.routing.js[0m
+[1] [90m17.03.14 16:14:55[0m [32m200[0m [35mGET[0m [90m/app/login.js[0m
+[1] [90m17.03.14 16:14:55[0m [32m200[0m [35mGET[0m [90m/app/auth.guard.js[0m
+[1] [90m17.03.14 16:14:55[0m [32m200[0m [35mGET[0m [90m/app/rxjso.js[0m
+[1] [90m17.03.14 16:14:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subject.js[0m
+[1] [90m17.03.14 16:14:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observable.js[0m
+[1] [90m17.03.14 16:14:55[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/common/bundles/common.umd.js[0m
+[1] [90m17.03.14 16:14:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/toPromise.js[0m
+[1] [90m17.03.14 16:14:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/fromPromise.js[0m
+[1] [90m17.03.14 16:14:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/fromPromise.js[0m
+[1] [90m17.03.14 16:14:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/mergeMap.js[0m
+[1] [90m17.03.14 16:14:55[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/router/bundles/router.umd.js[0m
+[1] [90m17.03.14 16:14:55[0m [32m200[0m [35mGET[0m [90m/app/hero.js[0m
+[1] [90m17.03.14 16:14:55[0m [32m200[0m [35mGET[0m [90m/app/headers.js[0m
+[1] [90m17.03.14 16:14:55[0m [32m200[0m [35mGET[0m [90m/app/global.js[0m
+[1] [90m17.03.14 16:14:55[0m [32m200[0m [35mGET[0m [90m/app/mock-heroes.js[0m
+[1] [90m17.03.14 16:14:55[0m [32m200[0m [35mGET[0m [90m/node_modules/systemjs/dist/system.src.js[0m
+[1] [90m17.03.14 16:14:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscriber.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscription.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/ObjectUnsubscribedError.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/SubjectSubscription.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/rxSubscriber.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/root.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/toSubscriber.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/observable.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/PromiseObservable.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/throw.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/catch.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/debounceTime.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/map.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/switchMap.js[0m
+[1] [90m17.03.14 16:14:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/toPromise.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeMap.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/from.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/of.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/every.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/map.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeAll.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/reduce.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/catch.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/concatAll.js[0m
+[1] [90m17.03.14 16:14:57[0m [32m200[0m [35mGET[0m [90m/app/main.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/first.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/EmptyError.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/last.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/BehaviorSubject.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isFunction.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observer.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isArray.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isObject.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/tryCatch.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/errorObject.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/UnsubscriptionError.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/throw.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/debounceTime.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 16:14:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/switchMap.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/subscribeToResult.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/OuterSubscriber.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayObservable.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/FromObservable.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ErrorObservable.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/async.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js[0m
+[1] [90m17.03.14 16:14:58[0m [32m200[0m [35mGET[0m [90m/app/app.module.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isPromise.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/iterator.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/InnerSubscriber.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ScalarObservable.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/EmptyObservable.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isScheduler.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/IteratorObservable.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayLikeObservable.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/observeOn.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncAction.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncScheduler.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/core/bundles/core.umd.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/compiler/bundles/compiler.umd.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Notification.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/Action.js[0m
+[1] [90m17.03.14 16:14:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Scheduler.js[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/http/bundles/http.umd.js[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/forms/bundles/forms.umd.js[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/node_modules/angular2-jwt/angular2-jwt.js[0m
+[1] [90m17.03.14 16:14:59[0m [32m200[0m [35mGET[0m [90m/app/dashboard.component.js[0m
+[1] [90m17.03.14 16:14:59[0m [32m200[0m [35mGET[0m [90m/app/hero-detail.component.js[0m
+[1] [90m17.03.14 16:14:59[0m [32m200[0m [35mGET[0m [90m/app/app.component.js[0m
+[1] [90m17.03.14 16:14:59[0m [32m200[0m [35mGET[0m [90m/app/heroes.component.js[0m
+[1] [90m17.03.14 16:14:59[0m [32m200[0m [35mGET[0m [90m/app/hero-add.component.js[0m
+[1] [90m17.03.14 16:14:59[0m [32m200[0m [35mGET[0m [90m/app/hero.service.js[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.html[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.html[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.html[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/login.html[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.html[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/app.component.css[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.css[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.css[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/login.css[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.css[0m
+[1] [90m17.03.14 16:14:59[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 16:14:59[0m [32m200[0m [35mGET[0m [90m/app/app.routing.js[0m
+[1] [90m17.03.14 16:14:59[0m [32m200[0m [35mGET[0m [90m/app/login.js[0m
+[1] [90m17.03.14 16:15:00[0m [32m200[0m [35mGET[0m [90m/app/rxjso.js[0m
+[1] [90m17.03.14 16:15:00[0m [32m200[0m [35mGET[0m [90m/app/auth.guard.js[0m
+[1] [90m17.03.14 16:15:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subject.js[0m
+[1] [90m17.03.14 16:15:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observable.js[0m
+[1] [90m17.03.14 16:15:00[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/common/bundles/common.umd.js[0m
+[1] [90m17.03.14 16:15:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/toPromise.js[0m
+[1] [90m17.03.14 16:15:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/fromPromise.js[0m
+[1] [90m17.03.14 16:15:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/fromPromise.js[0m
+[1] [90m17.03.14 16:15:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/mergeMap.js[0m
+[1] [90m17.03.14 16:15:00[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/router/bundles/router.umd.js[0m
+[1] [90m17.03.14 16:15:00[0m [32m200[0m [35mGET[0m [90m/app/hero.js[0m
+[1] [90m17.03.14 16:15:00[0m [32m200[0m [35mGET[0m [90m/app/headers.js[0m
+[1] [90m17.03.14 16:15:01[0m [32m200[0m [35mGET[0m [90m/app/global.js[0m
+[1] [90m17.03.14 16:15:01[0m [32m200[0m [35mGET[0m [90m/app/mock-heroes.js[0m
+[1] [90m17.03.14 16:15:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscriber.js[0m
+[1] [90m17.03.14 16:15:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscription.js[0m
+[1] [90m17.03.14 16:15:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/ObjectUnsubscribedError.js[0m
+[1] [90m17.03.14 16:15:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/SubjectSubscription.js[0m
+[1] [90m17.03.14 16:15:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/rxSubscriber.js[0m
+[1] [90m17.03.14 16:15:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/root.js[0m
+[1] [90m17.03.14 16:15:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/toSubscriber.js[0m
+[1] [90m17.03.14 16:15:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/observable.js[0m
+[1] [90m17.03.14 16:15:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/throw.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/catch.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/debounceTime.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/map.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/switchMap.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/toPromise.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/PromiseObservable.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeMap.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/from.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/of.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/every.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/map.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeAll.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/reduce.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/concatAll.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/catch.js[0m
+[1] [90m17.03.14 16:15:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/first.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/EmptyError.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/last.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/BehaviorSubject.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isFunction.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observer.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isArray.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isObject.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/tryCatch.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/errorObject.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/UnsubscriptionError.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/throw.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/debounceTime.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/switchMap.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/subscribeToResult.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/OuterSubscriber.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/FromObservable.js[0m
+[1] [90m17.03.14 16:15:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayObservable.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ErrorObservable.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/async.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/iterator.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isPromise.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/InnerSubscriber.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/IteratorObservable.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayLikeObservable.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/observeOn.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/EmptyObservable.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ScalarObservable.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isScheduler.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncAction.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncScheduler.js[0m
+[1] [90m17.03.14 16:15:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Notification.js[0m
+[1] [90m17.03.14 16:15:05[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/Action.js[0m
+[1] [90m17.03.14 16:15:05[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Scheduler.js[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.html[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.html[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.html[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/login.html[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.html[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/app.component.css[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.css[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.css[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/login.css[0m
+[1] [90m17.03.14 16:15:06[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.css[0m
+
+> angular2-quickstart@1.0.0 start /home/ubuntu/AngularPlayground/angular2
+> tsc && concurrently "npm run tsc:w" "npm run lite" 
+
+[0] 
+[0] > angular2-quickstart@1.0.0 tsc:w /home/ubuntu/AngularPlayground/angular2
+[0] > tsc -w
+[0] 
+[1] 
+[1] > angular2-quickstart@1.0.0 lite /home/ubuntu/AngularPlayground/angular2
+[1] > lite-server
+[1] 
+[1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+[1] ** browser-sync config **
+[1] { injectChanges: false,
+[1]   files: [ './**/*.{html,htm,css,js}' ],
+[1]   watchOptions: { ignored: 'node_modules' },
+[1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+[1] [BS] Access URLs:
+[1]  -------------------------------------
+[1]        Local: http://localhost:3000
+[1]     External: http://172.31.30.68:3000
+[1]  -------------------------------------
+[1]           UI: http://localhost:3001
+[1]  UI External: http://172.31.30.68:3001
+[1]  -------------------------------------
+[1] [BS] Serving files from: ./
+[1] [BS] Watching files...
+[1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+[1] [90m17.03.14 17:49:55[0m [36m304[0m [35mGET[0m [90m/index.html[0m
+[1] [90m17.03.14 17:49:55[0m [36m304[0m [35mGET[0m [90m/node_modules/zone.js/dist/zone.js[0m
+[1] [90m17.03.14 17:49:56[0m [36m304[0m [35mGET[0m [90m/node_modules/reflect-metadata/Reflect.js[0m
+[1] [90m17.03.14 17:49:56[0m [36m304[0m [35mGET[0m [90m/node_modules/systemjs/dist/system.src.js[0m
+[1] [90m17.03.14 17:49:56[0m [36m304[0m [35mGET[0m [90m/systemjs.config.js[0m
+[1] [90m17.03.14 17:49:57[0m [32m200[0m [35mGET[0m [90m/app/main.js[0m
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[0] 5:49:57 PM - Compilation complete. Watching for file changes.
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [90m17.03.14 17:49:58[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js[0m
+[1] [90m17.03.14 17:49:58[0m [32m200[0m [35mGET[0m [90m/app/app.module.js[0m
+[1] [90m17.03.14 17:49:58[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/compiler/bundles/compiler.umd.js[0m
+[1] [90m17.03.14 17:49:58[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/core/bundles/core.umd.js[0m
+[1] [90m17.03.14 17:49:58[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js[0m
+[1] [90m17.03.14 17:49:59[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/forms/bundles/forms.umd.js[0m
+[1] [90m17.03.14 17:49:59[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/http/bundles/http.umd.js[0m
+[1] [90m17.03.14 17:49:59[0m [36m304[0m [35mGET[0m [90m/node_modules/angular2-jwt/angular2-jwt.js[0m
+[1] [90m17.03.14 17:49:59[0m [32m200[0m [35mGET[0m [90m/app/app.component.js[0m
+[1] [90m17.03.14 17:49:59[0m [32m200[0m [35mGET[0m [90m/app/dashboard.component.js[0m
+[1] [90m17.03.14 17:49:59[0m [32m200[0m [35mGET[0m [90m/app/hero-detail.component.js[0m
+[1] [90m17.03.14 17:49:59[0m [32m200[0m [35mGET[0m [90m/app/hero-add.component.js[0m
+[1] [90m17.03.14 17:49:59[0m [32m200[0m [35mGET[0m [90m/app/heroes.component.js[0m
+[1] [90m17.03.14 17:49:59[0m [32m200[0m [35mGET[0m [90m/app/hero.service.js[0m
+[1] [90m17.03.14 17:49:59[0m [32m200[0m [35mGET[0m [90m/app/app.routing.js[0m
+[1] [90m17.03.14 17:49:59[0m [32m200[0m [35mGET[0m [90m/app/login.js[0m
+[1] [90m17.03.14 17:50:00[0m [32m200[0m [35mGET[0m [90m/app/auth.guard.js[0m
+[1] [90m17.03.14 17:50:00[0m [32m200[0m [35mGET[0m [90m/app/rxjso.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subject.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observable.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/common/bundles/common.umd.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/toPromise.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/fromPromise.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/fromPromise.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/mergeMap.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/router/bundles/router.umd.js[0m
+[1] [90m17.03.14 17:50:00[0m [32m200[0m [35mGET[0m [90m/app/hero.js[0m
+[1] [90m17.03.14 17:50:00[0m [32m200[0m [35mGET[0m [90m/app/headers.js[0m
+[1] [90m17.03.14 17:50:00[0m [32m200[0m [35mGET[0m [90m/app/global.js[0m
+[1] [90m17.03.14 17:50:00[0m [32m200[0m [35mGET[0m [90m/app/mock-heroes.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscriber.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscription.js[0m
+[1] [90m17.03.14 17:50:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/ObjectUnsubscribedError.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/SubjectSubscription.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/rxSubscriber.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/root.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/toSubscriber.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/observable.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/PromiseObservable.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeMap.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/from.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/of.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/every.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/map.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeAll.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/reduce.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/catch.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/concatAll.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/first.js[0m
+[1] [90m17.03.14 17:50:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/EmptyError.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/last.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/BehaviorSubject.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/throw.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/catch.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/debounceTime.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/map.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/switchMap.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/toPromise.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isFunction.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observer.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isArray.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isObject.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/tryCatch.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/errorObject.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/UnsubscriptionError.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/subscribeToResult.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/OuterSubscriber.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/FromObservable.js[0m
+[1] [90m17.03.14 17:50:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayObservable.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/throw.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/debounceTime.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/switchMap.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isPromise.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/iterator.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/InnerSubscriber.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/IteratorObservable.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayLikeObservable.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/observeOn.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ScalarObservable.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/EmptyObservable.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isScheduler.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ErrorObservable.js[0m
+[1] [90m17.03.14 17:50:03[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/async.js[0m
+[1] [90m17.03.14 17:50:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Notification.js[0m
+[1] [90m17.03.14 17:50:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncAction.js[0m
+[1] [90m17.03.14 17:50:04[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncScheduler.js[0m
+[1] [90m17.03.14 17:50:05[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/Action.js[0m
+[1] [90m17.03.14 17:50:05[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Scheduler.js[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.html[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.html[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.html[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.html[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/login.html[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/app.component.css[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.css[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.css[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/login.css[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 17:50:06[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.css[0m
+[1] [90m17.03.14 17:51:03[0m [36m304[0m [35mGET[0m [90m/index.html[0m
+[1] [90m17.03.14 17:51:04[0m [36m304[0m [35mGET[0m [90m/node_modules/zone.js/dist/zone.js[0m
+[1] [90m17.03.14 17:51:04[0m [36m304[0m [35mGET[0m [90m/node_modules/reflect-metadata/Reflect.js[0m
+[1] [90m17.03.14 17:51:04[0m [36m304[0m [35mGET[0m [90m/node_modules/systemjs/dist/system.src.js[0m
+[1] [90m17.03.14 17:51:04[0m [36m304[0m [35mGET[0m [90m/systemjs.config.js[0m
+[1] [90m17.03.14 17:51:05[0m [32m200[0m [35mGET[0m [90m/app/main.js[0m
+[1] [90m17.03.14 17:51:06[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js[0m
+[1] [90m17.03.14 17:51:06[0m [36m304[0m [35mGET[0m [90m/app/app.module.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/compiler/bundles/compiler.umd.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/core/bundles/core.umd.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/forms/bundles/forms.umd.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/http/bundles/http.umd.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/angular2-jwt/angular2-jwt.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/app.component.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/hero.service.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/app.routing.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/login.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/auth.guard.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/app/rxjso.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subject.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observable.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/common/bundles/common.umd.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/toPromise.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/fromPromise.js[0m
+[1] [90m17.03.14 17:51:07[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/fromPromise.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/mergeMap.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/router/bundles/router.umd.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/app/hero.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/app/headers.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/app/global.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/app/mock-heroes.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/throw.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/catch.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/debounceTime.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/map.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/switchMap.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/toPromise.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscriber.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscription.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/ObjectUnsubscribedError.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/SubjectSubscription.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/rxSubscriber.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/root.js[0m
+[1] [90m17.03.14 17:51:08[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/toSubscriber.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/observable.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/PromiseObservable.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeMap.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/from.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/of.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/every.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/map.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeAll.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/reduce.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/catch.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/concatAll.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/first.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/EmptyError.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/last.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/BehaviorSubject.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/throw.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/debounceTime.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/switchMap.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isFunction.js[0m
+[1] [90m17.03.14 17:51:09[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observer.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isArray.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isObject.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/tryCatch.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/errorObject.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/UnsubscriptionError.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/subscribeToResult.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/OuterSubscriber.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/FromObservable.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayObservable.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ErrorObservable.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/async.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isPromise.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/iterator.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/InnerSubscriber.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/IteratorObservable.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayLikeObservable.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/observeOn.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ScalarObservable.js[0m
+[1] [90m17.03.14 17:51:10[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/EmptyObservable.js[0m
+[1] [90m17.03.14 17:51:11[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isScheduler.js[0m
+[1] [90m17.03.14 17:51:11[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncAction.js[0m
+[1] [90m17.03.14 17:51:11[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncScheduler.js[0m
+[1] [90m17.03.14 17:51:11[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Notification.js[0m
+[1] [90m17.03.14 17:51:11[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/Action.js[0m
+[1] [90m17.03.14 17:51:11[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Scheduler.js[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.html[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.html[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.html[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.html[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/login.html[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/app.component.css[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.css[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.css[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.css[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/login.css[0m
+[1] [90m17.03.14 17:51:13[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 17:53:23[0m [36m304[0m [35mGET[0m [90m/index.html[0m
+[1] [90m17.03.14 17:53:24[0m [36m304[0m [35mGET[0m [90m/node_modules/zone.js/dist/zone.js[0m
+[1] [90m17.03.14 17:53:24[0m [36m304[0m [35mGET[0m [90m/node_modules/reflect-metadata/Reflect.js[0m
+[1] [90m17.03.14 17:53:24[0m [36m304[0m [35mGET[0m [90m/node_modules/systemjs/dist/system.src.js[0m
+[1] [90m17.03.14 17:53:24[0m [36m304[0m [35mGET[0m [90m/systemjs.config.js[0m
+[1] [90m17.03.14 17:53:25[0m [36m304[0m [35mGET[0m [90m/app/main.js[0m
+[1] [90m17.03.14 17:53:25[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js[0m
+[1] [90m17.03.14 17:53:25[0m [36m304[0m [35mGET[0m [90m/app/app.module.js[0m
+[1] [90m17.03.14 17:53:25[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/compiler/bundles/compiler.umd.js[0m
+[1] [90m17.03.14 17:53:25[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/core/bundles/core.umd.js[0m
+[1] [90m17.03.14 17:53:25[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/forms/bundles/forms.umd.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/http/bundles/http.umd.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/node_modules/angular2-jwt/angular2-jwt.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/app.component.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/hero.service.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/app.routing.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/login.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/auth.guard.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/app/rxjso.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subject.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observable.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/common/bundles/common.umd.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/toPromise.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/fromPromise.js[0m
+[1] [90m17.03.14 17:53:26[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/fromPromise.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/mergeMap.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/router/bundles/router.umd.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/app/hero.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/app/headers.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/app/global.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/app/mock-heroes.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/throw.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/catch.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/debounceTime.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/map.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 17:53:27[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/switchMap.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/toPromise.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscriber.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscription.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/ObjectUnsubscribedError.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/SubjectSubscription.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/rxSubscriber.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/root.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/toSubscriber.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/observable.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/PromiseObservable.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeMap.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/from.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/of.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/every.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/map.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeAll.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/reduce.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/catch.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/concatAll.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/first.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/EmptyError.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/last.js[0m
+[1] [90m17.03.14 17:53:28[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/BehaviorSubject.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/throw.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/debounceTime.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/switchMap.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isFunction.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observer.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isArray.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isObject.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/tryCatch.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/errorObject.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/UnsubscriptionError.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/subscribeToResult.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/OuterSubscriber.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/FromObservable.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayObservable.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ErrorObservable.js[0m
+[1] [90m17.03.14 17:53:29[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/async.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isPromise.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/iterator.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/InnerSubscriber.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/IteratorObservable.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayLikeObservable.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/observeOn.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ScalarObservable.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/EmptyObservable.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isScheduler.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncAction.js[0m
+[1] [90m17.03.14 17:53:30[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncScheduler.js[0m
+[1] [90m17.03.14 17:53:31[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Notification.js[0m
+[1] [90m17.03.14 17:53:31[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/Action.js[0m
+[1] [90m17.03.14 17:53:31[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Scheduler.js[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.html[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.html[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.html[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.html[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/login.html[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/app.component.css[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.css[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.css[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/login.css[0m
+[1] [90m17.03.14 17:53:33[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.css[0m
+[1] [90m17.03.14 17:53:35[0m [32m200[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 17:55:49[0m [32m200[0m [35mGET[0m [90m/index.html[0m
+[1] [90m17.03.14 17:55:50[0m [36m304[0m [35mGET[0m [90m/node_modules/zone.js/dist/zone.js[0m
+[1] [90m17.03.14 17:55:50[0m [36m304[0m [35mGET[0m [90m/node_modules/reflect-metadata/Reflect.js[0m
+[1] [90m17.03.14 17:55:50[0m [36m304[0m [35mGET[0m [90m/node_modules/systemjs/dist/system.src.js[0m
+[1] [90m17.03.14 17:55:50[0m [36m304[0m [35mGET[0m [90m/systemjs.config.js[0m
+[1] [90m17.03.14 17:55:51[0m [36m304[0m [35mGET[0m [90m/app/main.js[0m
+[1] [90m17.03.14 17:55:52[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js[0m
+[1] [90m17.03.14 17:55:52[0m [36m304[0m [35mGET[0m [90m/app/app.module.js[0m
+[1] [90m17.03.14 17:55:53[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/core/bundles/core.umd.js[0m
+[1] [90m17.03.14 17:55:53[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js[0m
+[1] [90m17.03.14 17:55:53[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/forms/bundles/forms.umd.js[0m
+[1] [90m17.03.14 17:55:53[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/http/bundles/http.umd.js[0m
+[1] [90m17.03.14 17:55:53[0m [36m304[0m [35mGET[0m [90m/node_modules/angular2-jwt/angular2-jwt.js[0m
+[1] [90m17.03.14 17:55:53[0m [36m304[0m [35mGET[0m [90m/app/app.component.js[0m
+[1] [90m17.03.14 17:55:53[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.js[0m
+[1] [90m17.03.14 17:55:53[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/app/hero.service.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/app/app.routing.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/app/login.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/app/auth.guard.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/app/rxjso.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/compiler/bundles/compiler.umd.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subject.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observable.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/common/bundles/common.umd.js[0m
+[1] [90m17.03.14 17:55:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/toPromise.js[0m
+[1] [90m17.03.14 17:55:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/fromPromise.js[0m
+[1] [90m17.03.14 17:55:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/fromPromise.js[0m
+[1] [90m17.03.14 17:55:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/mergeMap.js[0m
+[1] [90m17.03.14 17:55:55[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/router/bundles/router.umd.js[0m
+[1] [90m17.03.14 17:55:55[0m [36m304[0m [35mGET[0m [90m/app/hero.js[0m
+[1] [90m17.03.14 17:55:55[0m [36m304[0m [35mGET[0m [90m/app/headers.js[0m
+[1] [90m17.03.14 17:55:55[0m [36m304[0m [35mGET[0m [90m/app/global.js[0m
+[1] [90m17.03.14 17:55:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/throw.js[0m
+[1] [90m17.03.14 17:55:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/catch.js[0m
+[1] [90m17.03.14 17:55:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/debounceTime.js[0m
+[1] [90m17.03.14 17:55:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/map.js[0m
+[1] [90m17.03.14 17:55:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 17:55:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/switchMap.js[0m
+[1] [90m17.03.14 17:55:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/toPromise.js[0m
+[1] [90m17.03.14 17:55:56[0m [36m304[0m [35mGET[0m [90m/app/mock-heroes.js[0m
+[1] [90m17.03.14 17:55:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/root.js[0m
+[1] [90m17.03.14 17:55:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscriber.js[0m
+[1] [90m17.03.14 17:55:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscription.js[0m
+[1] [90m17.03.14 17:55:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/ObjectUnsubscribedError.js[0m
+[1] [90m17.03.14 17:55:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/SubjectSubscription.js[0m
+[1] [90m17.03.14 17:55:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/rxSubscriber.js[0m
+[1] [90m17.03.14 17:55:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/toSubscriber.js[0m
+[1] [90m17.03.14 17:55:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/observable.js[0m
+[1] [90m17.03.14 17:55:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/PromiseObservable.js[0m
+[1] [90m17.03.14 17:55:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeMap.js[0m
+[1] [90m17.03.14 17:55:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/from.js[0m
+[1] [90m17.03.14 17:55:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/of.js[0m
+[1] [90m17.03.14 17:55:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/every.js[0m
+[1] [90m17.03.14 17:55:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/map.js[0m
+[1] [90m17.03.14 17:55:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeAll.js[0m
+[1] [90m17.03.14 17:55:58[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/reduce.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/catch.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/concatAll.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/first.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/EmptyError.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/last.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/BehaviorSubject.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/throw.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/debounceTime.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/switchMap.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isFunction.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observer.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isArray.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isObject.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/tryCatch.js[0m
+[1] [90m17.03.14 17:55:59[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/errorObject.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/UnsubscriptionError.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/subscribeToResult.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/OuterSubscriber.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/FromObservable.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayObservable.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ErrorObservable.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/async.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isPromise.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/iterator.js[0m
+[1] [90m17.03.14 17:56:00[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/InnerSubscriber.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncAction.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncScheduler.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/IteratorObservable.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayLikeObservable.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/observeOn.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ScalarObservable.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/EmptyObservable.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isScheduler.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/Action.js[0m
+[1] [90m17.03.14 17:56:01[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Scheduler.js[0m
+[1] [90m17.03.14 17:56:02[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Notification.js[0m
+[1] [90m17.03.14 17:56:03[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.html[0m
+[1] [90m17.03.14 17:56:03[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.html[0m
+[1] [90m17.03.14 17:56:03[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.html[0m
+[1] [90m17.03.14 17:56:03[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.html[0m
+[1] [90m17.03.14 17:56:03[0m [36m304[0m [35mGET[0m [90m/app/login.html[0m
+[1] [90m17.03.14 17:56:03[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 17:56:03[0m [36m304[0m [35mGET[0m [90m/app/app.component.css[0m
+[1] [90m17.03.14 17:56:05[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.css[0m
+[1] [90m17.03.14 17:56:05[0m [36m304[0m [35mGET[0m [90m/app/login.css[0m
+[1] [90m17.03.14 17:56:05[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 17:56:05[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.css[0m
+[1] [90m17.03.14 17:56:05[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.css[0m
+[1] Killed
+[1] 
+[1] npm
+[1]  
+[1] ERR!
+[1]  Linux 4.4.0-64-generic
+[1] npm
+[1]  
+[1] ERR!
+[1]  
+[1] argv
+[1]  "/home/ubuntu/.nvm/versions/node/v7.0.0/bin/node" "/home/ubuntu/.nvm/versions/node/v7.0.0/bin/npm" "run" "lite"
+[1] npm
+[1]  
+[1] ERR!
+[1]  
+[1] node
+[1]  v7.0.0
+[1] npm
+[1]  
+[1] ERR!
+[1]  
+[1] npm 
+[1]  v3.10.8
+[1] npm
+[1]  
+[1] ERR!
+[1]  
+[1] code
+[1]  ELIFECYCLE
+[1] npm
+[1]  
+[1] ERR! angular2-quickstart@1.0.0 lite: `lite-server`
+[1] npm ERR! Exit status 137
+[1] npm ERR! 
+[1] npm ERR! Failed at the angular2-quickstart@1.0.0 lite script 'lite-server'.
+[1] npm ERR! Make sure you have the latest version of node.js and npm installed.
+[1] npm ERR! If you do, this is most likely a problem with the angular2-quickstart package,
+[1] npm ERR! not with npm itself.
+[1] npm ERR! Tell the author that this fails on your system:
+[1] npm ERR!     lite-server
+[1] npm ERR! You can get information on how to open an issue for this project with:
+[1] npm ERR!     npm bugs angular2-quickstart
+[1] npm ERR! Or if that isn't available, you can get their info via:
+[1] npm ERR!     npm owner ls angular2-quickstart
+[1] npm ERR! There is likely additional logging output above.
+[1] 
+[1] npm
+[1]  
+[1] ERR!
+[1]  Please include the following file with any support request:
+[1] npm
+[1]  
+[1] ERR!
+[1]      /home/ubuntu/AngularPlayground/angular2/npm-debug.log
+[1] npm run lite exited with code 1
+
+> angular2-quickstart@1.0.0 start /home/ubuntu/AngularPlayground/angular2
+> tsc && concurrently "npm run tsc:w" "npm run lite" 
+
+[0] 
+[0] > angular2-quickstart@1.0.0 tsc:w /home/ubuntu/AngularPlayground/angular2
+[0] > tsc -w
+[0] 
+[1] 
+[1] > angular2-quickstart@1.0.0 lite /home/ubuntu/AngularPlayground/angular2
+[1] > lite-server
+[1] 
+[1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+[1] ** browser-sync config **
+[1] { injectChanges: false,
+[1]   files: [ './**/*.{html,htm,css,js}' ],
+[1]   watchOptions: { ignored: 'node_modules' },
+[1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+[1] [BS] Access URLs:
+[1]  -------------------------------------
+[1]        Local: http://localhost:3000
+[1]     External: http://172.31.30.68:3000
+[1]  -------------------------------------
+[1]           UI: http://localhost:3001
+[1]  UI External: http://172.31.30.68:3001
+[1]  -------------------------------------
+[1] [BS] Serving files from: ./
+[1] [BS] Watching files...
+[1] [BS] Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+[1] [90m17.03.14 18:04:48[0m [36m304[0m [35mGET[0m [90m/index.html[0m
+[1] [90m17.03.14 18:04:49[0m [36m304[0m [35mGET[0m [90m/node_modules/zone.js/dist/zone.js[0m
+[1] [90m17.03.14 18:04:49[0m [36m304[0m [35mGET[0m [90m/node_modules/reflect-metadata/Reflect.js[0m
+[1] [90m17.03.14 18:04:49[0m [36m304[0m [35mGET[0m [90m/node_modules/systemjs/dist/system.src.js[0m
+[1] [90m17.03.14 18:04:49[0m [36m304[0m [35mGET[0m [90m/systemjs.config.js[0m
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[1] [BS] Reloading Browsers...
+[0] 6:04:50 PM - Compilation complete. Watching for file changes.
+[1] [90m17.03.14 18:06:49[0m [32m200[0m [35mGET[0m [90m/app/main.js[0m
+[1] [90m17.03.14 18:06:50[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js[0m
+[1] [90m17.03.14 18:06:50[0m [32m200[0m [35mGET[0m [90m/app/app.module.js[0m
+[1] [90m17.03.14 18:06:51[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/compiler/bundles/compiler.umd.js[0m
+[1] [90m17.03.14 18:06:51[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/core/bundles/core.umd.js[0m
+[1] [90m17.03.14 18:06:51[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js[0m
+[1] [90m17.03.14 18:06:51[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/forms/bundles/forms.umd.js[0m
+[1] [90m17.03.14 18:06:51[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/http/bundles/http.umd.js[0m
+[1] [90m17.03.14 18:06:51[0m [36m304[0m [35mGET[0m [90m/node_modules/angular2-jwt/angular2-jwt.js[0m
+[1] [90m17.03.14 18:06:51[0m [32m200[0m [35mGET[0m [90m/app/app.component.js[0m
+[1] [90m17.03.14 18:06:51[0m [32m200[0m [35mGET[0m [90m/app/dashboard.component.js[0m
+[1] [90m17.03.14 18:06:51[0m [32m200[0m [35mGET[0m [90m/app/hero-detail.component.js[0m
+[1] [90m17.03.14 18:06:51[0m [32m200[0m [35mGET[0m [90m/app/hero-add.component.js[0m
+[1] [90m17.03.14 18:06:52[0m [32m200[0m [35mGET[0m [90m/app/heroes.component.js[0m
+[1] [90m17.03.14 18:06:52[0m [32m200[0m [35mGET[0m [90m/app/hero.service.js[0m
+[1] [90m17.03.14 18:06:52[0m [32m200[0m [35mGET[0m [90m/app/app.routing.js[0m
+[1] [90m17.03.14 18:06:52[0m [32m200[0m [35mGET[0m [90m/app/login.js[0m
+[1] [90m17.03.14 18:06:52[0m [32m200[0m [35mGET[0m [90m/app/auth.guard.js[0m
+[1] [90m17.03.14 18:06:52[0m [32m200[0m [35mGET[0m [90m/app/rxjso.js[0m
+[1] [90m17.03.14 18:06:52[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subject.js[0m
+[1] [90m17.03.14 18:06:52[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observable.js[0m
+[1] [90m17.03.14 18:06:52[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/common/bundles/common.umd.js[0m
+[1] [90m17.03.14 18:06:52[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/toPromise.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/fromPromise.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/fromPromise.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/mergeMap.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/@angular/router/bundles/router.umd.js[0m
+[1] [90m17.03.14 18:06:53[0m [32m200[0m [35mGET[0m [90m/app/hero.js[0m
+[1] [90m17.03.14 18:06:53[0m [32m200[0m [35mGET[0m [90m/app/headers.js[0m
+[1] [90m17.03.14 18:06:53[0m [32m200[0m [35mGET[0m [90m/app/global.js[0m
+[1] [90m17.03.14 18:06:53[0m [32m200[0m [35mGET[0m [90m/app/mock-heroes.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscriber.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Subscription.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/ObjectUnsubscribedError.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/SubjectSubscription.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/rxSubscriber.js[0m
+[1] [90m17.03.14 18:06:53[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/root.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/toSubscriber.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/observable.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/PromiseObservable.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/observable/throw.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/catch.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/debounceTime.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/map.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/switchMap.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/add/operator/toPromise.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeMap.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/from.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/of.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/every.js[0m
+[1] [90m17.03.14 18:06:54[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/map.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/mergeAll.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/reduce.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/catch.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/concatAll.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/first.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/EmptyError.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/last.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/BehaviorSubject.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isArray.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isObject.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isFunction.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/tryCatch.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/errorObject.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/UnsubscriptionError.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Observer.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/throw.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/debounceTime.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/distinctUntilChanged.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/switchMap.js[0m
+[1] [90m17.03.14 18:06:55[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/subscribeToResult.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/OuterSubscriber.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/FromObservable.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayObservable.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ErrorObservable.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/async.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isPromise.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/symbol/iterator.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/InnerSubscriber.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/IteratorObservable.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ArrayLikeObservable.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/operator/observeOn.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/ScalarObservable.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/observable/EmptyObservable.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/util/isScheduler.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncAction.js[0m
+[1] [90m17.03.14 18:06:56[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/AsyncScheduler.js[0m
+[1] [90m17.03.14 18:06:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Notification.js[0m
+[1] [90m17.03.14 18:06:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/scheduler/Action.js[0m
+[1] [90m17.03.14 18:06:57[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/Scheduler.js[0m
+[1] [90m17.03.14 18:06:58[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.html[0m
+[1] [90m17.03.14 18:06:58[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.html[0m
+[1] [90m17.03.14 18:06:58[0m [36m304[0m [35mGET[0m [90m/app/hero-add.component.html[0m
+[1] [90m17.03.14 18:06:58[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.html[0m
+[1] [90m17.03.14 18:06:58[0m [36m304[0m [35mGET[0m [90m/app/login.html[0m
+[1] [90m17.03.14 18:06:58[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 18:06:58[0m [36m304[0m [35mGET[0m [90m/app/app.component.css[0m
+[1] [90m17.03.14 18:06:59[0m [36m304[0m [35mGET[0m [90m/app/dashboard.component.css[0m
+[1] [90m17.03.14 18:06:59[0m [36m304[0m [35mGET[0m [90m/app/hero-detail.component.css[0m
+[1] [90m17.03.14 18:06:59[0m [36m304[0m [35mGET[0m [90m/app/login.css[0m
+[1] [90m17.03.14 18:06:59[0m [36m304[0m [35mGET[0m [90m/app/bootstrap.min.css[0m
+[1] [90m17.03.14 18:06:59[0m [36m304[0m [35mGET[0m [90m/app/heroes.component.css[0m
+[1] Killed
+[1] 
+[1] npm
+[1]  
+[1] ERR!
+[1]  Linux 4.4.0-64-generic
+[1] npm
+[1]  
+[1] ERR!
+[1]  
+[1] argv
+[1]  "/home/ubuntu/.nvm/versions/node/v7.0.0/bin/node" "/home/ubuntu/.nvm/versions/node/v7.0.0/bin/npm" "run" "lite"
+[1] npm
+[1]  
+[1] ERR!
+[1]  
+[1] node
+[1]  v7.0.0
+[1] npm
+[1]  
+[1] ERR!
+[1]  
+[1] npm 
+[1]  v3.10.8
+[1] npm
+[1]  
+[1] ERR!
+[1]  
+[1] code
+[1]  ELIFECYCLE
+[1] npm
+[1]  
+[1] ERR! angular2-quickstart@1.0.0 lite: `lite-server`
+[1] npm ERR! Exit status 137
+[1] npm ERR! 
+[1] npm ERR! Failed at the angular2-quickstart@1.0.0 lite script 'lite-server'.
+[1] npm ERR! Make sure you have the latest version of node.js and npm installed.
+[1] npm ERR! If you do, this is most likely a problem with the angular2-quickstart package,
+[1] npm ERR! not with npm itself.
+[1] npm ERR! Tell the author that this fails on your system:
+[1] npm ERR!     lite-server
+[1] npm ERR! You can get information on how to open an issue for this project with:
+[1] npm ERR!     npm bugs angular2-quickstart
+[1] npm ERR! Or if that isn't available, you can get their info via:
+[1] npm ERR!     npm owner ls angular2-quickstart
+[1] npm ERR! There is likely additional logging output above.
+[1] 
+[1] npm ERR! Please include the following file with any support request:
+[1] npm ERR!     /home/ubuntu/AngularPlayground/angular2/npm-debug.log
+[1] npm run lite exited with code 1
+
+> angular2-quickstart@1.0.0 start /home/ubuntu/AngularPlayground/angular2
+> tsc && concurrently "npm run tsc:w" "npm run lite" 
+

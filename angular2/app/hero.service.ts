@@ -13,7 +13,7 @@ import { GlobalVariable }                     from './global';
  //  }
 @Injectable()
 export class HeroService {
-  private heroesUrl = GlobalVariable.BASE_API_URL+'product/'; 
+  private heroesUrl = GlobalVariable.BASE_API_URL+'Employee/'; 
   jwt: string;
   decodedJwt: string;
   constructor(
@@ -24,7 +24,7 @@ export class HeroService {
   ) { 
 
     this.jwt = localStorage.getItem('id_token');
-    console.log("JWT TOKEN IS " , this.jwt  , window /*, JwtHelper.decodeToken(this.jwt)*/ );
+    //console.log("JWT TOKEN IS " , this.jwt  , window /*, JwtHelper.decodeToken(this.jwt)*/ );
     // this.decodedJwt = this.jwt && window.jwt_decode(this.jwt);
   }
 
@@ -51,6 +51,7 @@ export class HeroService {
 
   private extractData(res: Response) {
     let body = res.json();
+    console.log(body)
     return body || { };
   }
   private handleError (error: any) {

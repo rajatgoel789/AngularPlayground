@@ -3,7 +3,7 @@ export class Hero {
   firstName: string;
   lastName:string;
   doj: string ; 
-  locationID: string ; 
+  locationId: string ; 
 }
 
 

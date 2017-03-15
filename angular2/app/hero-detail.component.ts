@@ -37,7 +37,7 @@ export class HeroDetailComponent implements OnInit {
                        heroes => {
                          // TODO navigate to list page 
                          // this.heroes = heroes ; console.log("Heroes " , heroes );
-                                 this.router.navigate(['heroes']);
+                                 this.router.navigate(['dashboard']);
 
 
 

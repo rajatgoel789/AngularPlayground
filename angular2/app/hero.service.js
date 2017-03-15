@@ -25,9 +25,9 @@ var HeroService = (function () {
         this.http = http;
         this.authHttp = authHttp;
         this.router = router;
-        this.heroesUrl = global_1.GlobalVariable.BASE_API_URL + 'product/';
+        this.heroesUrl = global_1.GlobalVariable.BASE_API_URL + 'Employee/';
         this.jwt = localStorage.getItem('id_token');
-        console.log("JWT TOKEN IS ", this.jwt, window /*, JwtHelper.decodeToken(this.jwt)*/);
+        //console.log("JWT TOKEN IS " , this.jwt  , window /*, JwtHelper.decodeToken(this.jwt)*/ );
         // this.decodedJwt = this.jwt && window.jwt_decode(this.jwt);
     }
     HeroService.prototype.getHeroesList = function () {
@@ -47,6 +47,7 @@ var HeroService = (function () {
     };
     HeroService.prototype.extractData = function (res) {
         var body = res.json();
+        console.log(body);
         return body || {};
     };
     HeroService.prototype.handleError = function (error) {

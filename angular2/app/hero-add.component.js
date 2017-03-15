@@ -15,6 +15,7 @@ var http_1 = require('@angular/http');
 var hero_1 = require('./hero');
 var hero_service_1 = require('./hero.service');
 var headers_1 = require('./headers');
+var global_1 = require('./global');
 var HeroAddComponent = (function () {
     function HeroAddComponent(heroService, route, location, http, router) {
         this.heroService = heroService;
@@ -22,6 +23,7 @@ var HeroAddComponent = (function () {
         this.location = location;
         this.http = http;
         this.router = router;
+        this.heroesUrl = global_1.GlobalVariable.BASE_API_URL + 'Employee/';
         this.model = new hero_1.Hero();
         this.productTypes = ['Small', 'Medium', 'Large'];
         this.active = true;
@@ -45,11 +47,11 @@ var HeroAddComponent = (function () {
     HeroAddComponent.prototype.saveProduct = function (productDetail) {
         var _this = this;
         var body = productDetail;
-        this.http.post('http://localhost:1337/product/', body, { headers: headers_1.contentHeaders })
+        this.http.post(this.heroesUrl, body, { headers: headers_1.contentHeaders })
             .subscribe(function (response) {
             console.log(response);
             // localStorage.setItem('id_token', response.json().id_token);
-            _this.router.navigate(['heroes']);
+            _this.router.navigate(['dashboard']);
         }, function (error) {
             alert(error.text());
             console.log(error.text());

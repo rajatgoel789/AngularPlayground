@@ -11,16 +11,89 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var hero_service_1 = require('./hero.service');
+//import { ArraySortPipe } from "./pipe";
 var DashboardComponent = (function () {
     function DashboardComponent(router, heroService) {
         this.router = router;
         this.heroService = heroService;
         this.heroes = [];
     }
-    DashboardComponent.prototype.ngOnInit = function () {
+    DashboardComponent.prototype.getSorted = function (args) {
         var _this = this;
-        this.heroService.getHeroes()
-            .then(function (heroes) { return _this.heroes = heroes.slice(1, 100); });
+        if (this.orderType == 1) {
+            if (args == 'firstName') {
+                this.sortFN = 'fa fa-sort-desc';
+                this.sortLN = 'fa fa-sort';
+            }
+            if (args == 'lastName') {
+                this.sortFN = 'fa fa-sort';
+                this.sortLN = 'fa fa-sort-desc';
+            }
+            this.orderType = -1;
+        }
+        else {
+            if (args == 'firstName') {
+                this.sortFN = 'fa fa-sort-asc';
+                this.sortLN = 'fa fa-sort';
+            }
+            if (args == 'lastName') {
+                this.sortFN = 'fa fa-sort';
+                this.sortLN = 'fa fa-sort-asc';
+            }
+            this.orderType = 1;
+        }
+        this.heroes.sort(function (a, b) {
+            if (_this.orderType == 1) {
+                if (a[args] < b[args]) {
+                    return -1;
+                }
+                else if (a[args] > b[args]) {
+                    return 1;
+                }
+                else {
+                    return 0;
+                }
+            }
+            else {
+                if (a[args] < b[args]) {
+                    return 1;
+                }
+                else if (a[args] > b[args]) {
+                    return -1;
+                }
+                else {
+                    return 0;
+                }
+            }
+        });
+        return;
+    };
+    DashboardComponent.prototype.getHeroesList = function () {
+        var _this = this;
+        console.log("getHeroesList", this.heroService);
+        this.heroService.getHeroesList()
+            .subscribe(function (heroes) { _this.heroes = heroes; console.log("Heroes ", heroes); }, function (error) { return _this.errorMessage = error; });
+    };
+    DashboardComponent.prototype.deleteEmployee = function (id) {
+        var _this = this;
+        console.log("selected hero", id);
+        this.heroService.removeHeros(id)
+            .subscribe(function (heroes) {
+            // this.heroes = heroes ; 
+            var heroeslist = _this.heroes;
+            for (var i = 0; i < heroeslist.length; i++) {
+                if (heroeslist[i].id == id) {
+                    _this.heroes.splice(i, 1);
+                }
+            }
+        }, function (error) {
+            _this.errorMessage = error;
+        });
+    };
+    DashboardComponent.prototype.ngOnInit = function () {
+        this.getHeroesList();
+        this.sortFN = 'fa fa-sort';
+        this.sortLN = 'fa fa-sort';
     };
     DashboardComponent.prototype.gotoDetail = function (hero) {
         var link = ['/detail', hero.id];
@@ -30,6 +103,7 @@ var DashboardComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'my-dashboard',
+            //pipes: [ DatePipe,ArraySortPipe],
             templateUrl: 'dashboard.component.html',
             styleUrls: ['dashboard.component.css']
         }), 

@@ -5,7 +5,7 @@ import { Http, Headers }          from '@angular/http';
 import { Hero }                   from './hero';
 import { HeroService }            from './hero.service';
 import { contentHeaders }         from './headers';
-
+import { GlobalVariable }         from './global';
 @Component({
   moduleId: module.id,
   selector: 'my-hero-add',
@@ -14,7 +14,7 @@ import { contentHeaders }         from './headers';
 })
 export class HeroAddComponent implements OnInit {
   hero: Hero;
-
+  private heroesUrl = GlobalVariable.BASE_API_URL+'Employee/'; 
   constructor(
     private heroService: HeroService,
     private route: ActivatedRoute,
@@ -51,12 +51,12 @@ export class HeroAddComponent implements OnInit {
 
  saveProduct(productDetail) {
     let body = productDetail;
-    this.http.post('http://localhost:1337/product/', body, { headers: contentHeaders })
+    this.http.post(this.heroesUrl, body, { headers: contentHeaders })
       .subscribe(
         response => {
           console.log(response);
           // localStorage.setItem('id_token', response.json().id_token);
-          this.router.navigate(['heroes']);
+          this.router.navigate(['dashboard']);
         },
         error => {
           alert(error.text());
