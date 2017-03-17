@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { Routes, Router ,RouterModule } from '@angular/router';
-
 // import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 @Component({
   selector: 'my-app',
   template: `
+    
     <h1>{{title}}</h1>
     <nav  *ngIf="menuDisplay" >
       <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
@@ -21,9 +21,8 @@ import { Routes, Router ,RouterModule } from '@angular/router';
 export class AppComponent {
   title = 'Playground :: Angular2';
   menuDisplay = false ; 
-
+ 
   constructor(public router: Router) {
-
       if(localStorage.getItem('id_token')){
           this.menuDisplay = true ; 
       }      
@@ -35,3 +34,5 @@ export class AppComponent {
     this.router.navigate(['login']);
   }
 }
+
+

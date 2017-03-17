@@ -22,7 +22,10 @@ var hero_service_1 = require('./hero.service');
 var app_routing_1 = require('./app.routing');
 var login_1 = require('./login');
 var auth_guard_1 = require('./auth.guard');
-// import {NgbModule}              from '@ng-bootstrap/ng-bootstrap';
+var ng2_popup_1 = require('ng2-popup');
+var ng_bootstrap_1 = require('@ng-bootstrap/ng-bootstrap');
+var modal_customclass_1 = require('./modal-customclass');
+//import { BootstrapModalModule } from 'ng2-bootstrap-modal';
 require('./rxjso');
 var AppModule = (function () {
     function AppModule() {
@@ -35,6 +38,8 @@ var AppModule = (function () {
                 http_1.HttpModule,
                 http_1.JsonpModule,
                 app_routing_1.routing,
+                ng2_popup_1.Ng2PopupModule,
+                ng_bootstrap_1.NgbModule.forRoot()
             ],
             declarations: [
                 app_component_1.AppComponent,
@@ -42,7 +47,9 @@ var AppModule = (function () {
                 hero_detail_component_1.HeroDetailComponent,
                 hero_add_component_1.HeroAddComponent,
                 heroes_component_1.HeroesComponent,
-                login_1.Login
+                login_1.Login,
+                modal_customclass_1.NgbdModalCustomclass,
+                heroes_component_1.SearchPipe,
             ],
             providers: [
                 hero_service_1.HeroService, angular2_jwt_1.AUTH_PROVIDERS, auth_guard_1.AuthGuard

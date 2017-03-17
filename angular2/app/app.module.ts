@@ -3,19 +3,21 @@ import { BrowserModule }  from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
 import { HttpModule, JsonpModule }  from '@angular/http';
 
-import { AppComponent }         from './app.component';
+import { AppComponent}         from './app.component';
 import { AUTH_PROVIDERS }       from 'angular2-jwt';
 
 import { DashboardComponent }   from './dashboard.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 import { HeroAddComponent }     from './hero-add.component';
-import { HeroesComponent }      from './heroes.component';
+import { HeroesComponent,SearchPipe }      from './heroes.component';
 import { HeroService }          from './hero.service';
 import { routing }              from './app.routing';
 import { Login }                from './login';
 import { AuthGuard }            from './auth.guard';
-// import {NgbModule}              from '@ng-bootstrap/ng-bootstrap';
-
+import { Ng2PopupModule }       from 'ng2-popup';
+import {NgbModule}              from '@ng-bootstrap/ng-bootstrap';
+import { NgbdModalCustomclass } from './modal-customclass';
+//import { BootstrapModalModule } from 'ng2-bootstrap-modal';
 import './rxjso'
 
 
@@ -26,7 +28,8 @@ import './rxjso'
     HttpModule,
     JsonpModule,    
     routing,
-    // NgbModule.forRoot()
+    Ng2PopupModule,
+    NgbModule.forRoot()
   ],
   declarations: [
     AppComponent,
@@ -34,7 +37,10 @@ import './rxjso'
     HeroDetailComponent,
     HeroAddComponent,
     HeroesComponent,
-    Login
+    Login,
+    NgbdModalCustomclass,
+    SearchPipe,
+    //BootstrapModalModule
   ],
   providers: [
     HeroService , AUTH_PROVIDERS  , AuthGuard 

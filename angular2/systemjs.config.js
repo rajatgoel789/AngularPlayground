@@ -23,8 +23,12 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js', //Enables A2 Forms
       'angular2-jwt':  'npm:angular2-jwt/angular2-jwt.js',
       'js-base64':'npm:js-base64/base64.js',
-      // 'jwt-decode':'npm:jwt-decode/lib/index.js', 
+      'ng2-popup' : 'npm:ng2-popup/dist/ng2-popup.umd.js',
+      'ng2-overlay' :  'npm:ng2-overlay.umd.js',
+
+      // POP UP DEPENDENCY HERE 
       '@ng-bootstrap/ng-bootstrap': 'node_modules/@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js',
+      // 'jwt-decode':'npm:jwt-decode/lib/index.js', 
 
       'buffer':'@empty',
       // other libraries
